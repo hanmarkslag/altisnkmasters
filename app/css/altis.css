@@ -1,3 +1,71 @@
+/* logo */
+.logo > img {
+    width: 100%;
+    padding-left: 10px;
+}
+
+/* Default: mobile devices < 768px */
+.nk-titel-regel1, .nk-titel-regel2 {
+    font-size: 20px;
+    padding-left: 25px;
+}
+.nk-titel-regel1 {
+    padding-top: 0px;
+}
+.nk-titel-regel2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .nk-titel-regel1, .nk-titel-regel2 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .nk-titel-regel1 {
+        padding-top: 20px;
+    }
+    .nk-titel-regel2 {
+        margin-top: -2px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nk-titel-regel1, .nk-titel-regel2 {
+        font-size: 30px;
+    }
+    .nk-titel-regel1 {
+        padding-top: 23px;
+    }
+    .nk-titel-regel2 {
+        margin-top: -5px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .nk-titel-regel1, .nk-titel-regel2 {
+        font-size: 40px;
+    }
+    .nk-titel-regel1 {
+        padding-top: 25px;
+    }
+    .nk-titel-regel2 {
+        margin-top: -10px;
+    }
+}
+
+.nk-titel-regel1, .nk-titel-regel2 {
+    color: #F0810F;
+    font-weight: bold;
+}
+
+
+
+
+
 /* navbar */
 .navbar-default {
     background-color: #003473;
