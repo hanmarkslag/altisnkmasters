@@ -6,7 +6,7 @@
 
 /* Default: mobile devices < 768px */
 .nk-titel-regel1, .nk-titel-regel2 {
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 25px;
 }
 .nk-titel-regel1 {
@@ -20,11 +20,11 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .nk-titel-regel1, .nk-titel-regel2 {
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 0px;
     }
     .nk-titel-regel1 {
-        padding-top: 20px;
+        padding-top: 8px;
     }
     .nk-titel-regel2 {
         margin-top: -2px;
@@ -34,10 +34,10 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .nk-titel-regel1, .nk-titel-regel2 {
-        font-size: 30px;
+        font-size: 23px;
     }
     .nk-titel-regel1 {
-        padding-top: 23px;
+        padding-top: 10px;
     }
     .nk-titel-regel2 {
         margin-top: -5px;
@@ -47,13 +47,13 @@
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .nk-titel-regel1, .nk-titel-regel2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .nk-titel-regel1 {
-        padding-top: 25px;
+        padding-top: 10px;
     }
     .nk-titel-regel2 {
-        margin-top: -10px;
+        margin-top: -5px;
     }
 }
 
@@ -61,9 +61,6 @@
     color: #F0810F;
     font-weight: bold;
 }
-
-
-
 
 
 /* navbar */
