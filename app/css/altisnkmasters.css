@@ -1,0 +1,165 @@
+/* logo's */
+.nk-logo-knau, .nk-logo-altis {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 0px;
+}.nk-logo-knau {
+     width: 60px;
+     float: right;
+ }
+.nk-logo-altis {
+    width: 130px;
+}
+.nk-logo-knau-text {
+    padding-left: 0px;
+}
+.nk-logo-altis-text {
+    padding-right: 0px;
+}
+.nk-logo-knau-text-1, .nk-logo-knau-text-2, .nk-logo-altis-text-1, .nk-logo-altis-text-2 {
+    font-weight: 300;
+}
+.nk-logo-knau-text-1 {
+    padding-top: 7px;
+}
+.nk-logo-knau-text-1, .nk-logo-knau-text-2 {
+    color: #003473;
+}
+.nk-logo-altis-text-1 {
+    padding-top: 7px;
+ }
+.nk-logo-altis-text-1, .nk-logo-altis-text-2 {
+    color: #F0810F;
+    text-align: right;
+}
+
+/* Header */
+.nk-header {
+    background-color: #F0810F;
+}
+.nk-header-foto {
+    width: 65%;
+}
+.nk-header-foto-xs {
+     width: 100%;
+ }
+.nk-header-text {
+    color: #ffffff;
+    float: right;
+    padding-top: 30px;
+    width: 35%
+}
+.nk-header-text-1, .nk-header-text-2, .nk-header-text-3 {
+    margin-left: 10px;
+    padding-right: 1%;
+}
+.nk-header-text-2 {
+    font-weight: bold;
+}
+
+/* Default: mobile devices < 768px */
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .nk-header-text {
+        padding-top: 18px;
+    }
+    .nk-header-text-1 {
+        font-size: 14px;
+    }
+    .nk-header-text-2 {
+        font-size: 20px;
+    }
+    .nk-header-text-3 {
+        font-size: 16px;
+        padding-top: 14px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nk-header-text {
+        padding-top: 25px;
+    }
+    .nk-header-text-1 {
+        font-size: 16px;
+    }
+    .nk-header-text-2 {
+        font-size: 24px;
+    }
+    .nk-header-text-3 {
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .nk-header-text {
+        padding-top: 30px;
+    }
+    .nk-header-text-1 {
+        font-size: 18px;
+    }
+    .nk-header-text-2 {
+        font-size: 28px;
+    }
+    .nk-header-text-3 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}
+
+
+
+/* navbar */
+.navbar-default {
+    background-color: #003473;
+    border-color: #003473;
+}
+
+/* brand */
+.navbar-default .navbar-brand {
+    color: #F0810F;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+/* links */
+.navbar-default .navbar-nav > li > a {
+    color: #F0810F;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+/* active link */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #003473;
+}
+
+/* toggle */
+.navbar-default .navbar-toggle {
+    border-color: #003473;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F0810F;
+}
+
+/* glyphicon */
+.glyphicon {
+    color: #F0810F;
+}
+.navbar-default .glyphicon:hover,
+.navbar-default .glyphicon:focus {
+    color: white;
+}
+
