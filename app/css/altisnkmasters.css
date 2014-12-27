@@ -65,7 +65,7 @@
     width: 35%
 }
 .nk-header-text-1, .nk-header-text-2, .nk-header-text-3 {
-    margin-left: 10px;
+    margin-left: 15px;
     padding-right: 1%;
 }
 .nk-header-text-2 {
@@ -101,7 +101,9 @@
         margin-top: 15px;
         height: 60px;
     }
-
+    .nk-news-photo {
+        padding-left: 14px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -144,6 +146,21 @@
         margin-top: 40px;
     }
 }
+
+/* homepage */
+.nk-line {
+    border-top: 1px solid #F0810F;
+    margin-bottom: 20px;
+}
+.nk-news-photo {
+    width: 100%;
+}
+.nk-text {
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+
 
 
 
