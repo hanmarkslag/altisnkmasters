@@ -3,7 +3,8 @@
     margin-top: 5px;
     margin-bottom: 5px;
     padding-right: 0px;
-}.nk-logo-knau {
+}
+.nk-logo-knau {
      width: 60px;
      float: right;
  }
@@ -23,13 +24,13 @@
     padding-top: 7px;
 }
 .nk-logo-knau-text-1, .nk-logo-knau-text-2 {
-    color: #003473;
+    color: #F0810F;
 }
 .nk-logo-altis-text-1 {
     padding-top: 7px;
  }
 .nk-logo-altis-text-1, .nk-logo-altis-text-2 {
-    color: #F0810F;
+    color: #003473;
     text-align: right;
 }
 
@@ -40,8 +41,22 @@
 .nk-header-foto {
     width: 65%;
 }
-.nk-header-foto-xs {
-     width: 100%;
+.nk-header-5kamp-logo-xs {
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px lightcyan;
+}
+.nk-header-5kamp-foto-xs {
+    width: 100%;
+ }
+.nk-header-text-xs {
+    background-color: #F0810F;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-top: solid 1px lightcyan;
+    padding-top: 8px;
+    padding-bottom: 8px;
  }
 .nk-header-text {
     color: #ffffff;
@@ -55,6 +70,13 @@
 }
 .nk-header-text-2 {
     font-weight: bold;
+}
+.nk-header-5kamp-logo {
+    margin-top: 20px;
+    width: 100%;
+    height: 90px;
+    border-top: solid 1px lightcyan;
+    border-bottom: solid 1px lightcyan;
 }
 
 /* Default: mobile devices < 768px */
@@ -75,12 +97,17 @@
         font-size: 16px;
         padding-top: 14px;
     }
+    .nk-header-5kamp-logo {
+        margin-top: 15px;
+        height: 60px;
+    }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .nk-header-text {
-        padding-top: 25px;
+        padding-top: 20px;
     }
     .nk-header-text-1 {
         font-size: 16px;
@@ -90,15 +117,18 @@
     }
     .nk-header-text-3 {
         font-size: 18px;
-        padding-top: 18px;
+        padding-top: 15px;
     }
-
+    .nk-header-5kamp-logo {
+        margin-top: 20px;
+        height: 80px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .nk-header-text {
-        padding-top: 30px;
+        padding-top: 25px;
     }
     .nk-header-text-1 {
         font-size: 18px;
@@ -108,7 +138,10 @@
     }
     .nk-header-text-3 {
         font-size: 20px;
-        padding-top: 20px;
+        padding-top: 15px;
+    }
+    .nk-header-5kamp-logo {
+        margin-top: 40px;
     }
 }
 
@@ -116,8 +149,8 @@
 
 /* navbar */
 .navbar-default {
-    background-color: #003473;
-    border-color: #003473;
+    background-color: white;
+    border-color: white;
 }
 
 /* brand */
@@ -135,20 +168,20 @@
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: white;
+    color: #003473;
 }
 
 /* active link */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: white;
-    background-color: #003473;
+    color: #003473;
+    background-color: white;
 }
 
 /* toggle */
 .navbar-default .navbar-toggle {
-    border-color: #003473;
+    border-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #F0810F;
