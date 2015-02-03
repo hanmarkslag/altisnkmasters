@@ -1,3 +1,1 @@
-/**
- * Created by hanmarkslag on 18/01/15.
- */
+// newsitem directive 2e

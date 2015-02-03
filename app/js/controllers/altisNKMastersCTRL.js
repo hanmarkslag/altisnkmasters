@@ -1,8 +1,7 @@
-'use strict';
-
 angular.module("altisNKMasters")
-    .controller("altisNKMastersCTRL", function($scope, nkConstants) {
+    .controller("altisNKMastersCTRL", ['$scope', 'nkConstants',
+        function($scope, nkConstants) {
 
-        $scope.nkHeaderPartial = nkConstants.nkHeader;
+            $scope.nkHeaderPartial = nkConstants.nkHeader;
 
-    })
+        }]);

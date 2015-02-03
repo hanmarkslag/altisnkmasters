@@ -3,9 +3,6 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
-        clean: {
-            minified: ['js-min/*']
-        },
         connect: {
             server: {
                 options: {
@@ -16,14 +13,34 @@ module.exports = function(grunt) {
                     keepalive: true
                 }
             }
+        },
+        clean: {
+            target: ['target/*']
+        },
+        concat: {
+            dist: {
+                src: ['app/js/**/*.js'],
+                dest: 'target/nk.js'
+            }
+        },
+        uglify: {
+            nkscripts: {
+                files: {
+                    'target/nk.min.js': ['target/nk.js']
+                }
+            }
         }
      });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.registerTask('minify', [
-        'clean'
+        'clean:target',
+        'concat',
+        'uglify'
     ]);
     grunt.registerTask('server', [
         'connect'
