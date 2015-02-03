@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" ng-app="altisNKMasters">
 <head lang="en">
 
     <meta charset="UTF-8">
@@ -12,100 +12,19 @@
 
     <script src="lib/js/jquery.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/angular.min.js"></script>
+    <script src="lib/js/angular-ui-router.min.js"></script>
+
+    <script src="js/altisNKMasters.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/controllers/altisNKMastersCTRL.js"></script>
 
 </head>
-<body>
+<body ng-controller="altisNKMastersCTRL">
 
-<div class="container visible-sm visible-md visible-lg">
-    <div class="row">
-        <div class="col-sm-1 col-md-1 col-lg-1">
-            <a href="http://www.atletiek.nl" target="_blank"><img class="nk-logo-knau" src="images/knaulogo.jpg"></a>
-         </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 nk-logo-knau-text">
-            <div class="nk-logo-knau-text-1">Onder auspiciën</div>
-            <div class="nk-logo-knau-text-2">van de Atletiekunie</div>
-        </div>
-         <div class="col-sm-4 col-md-4 col-lg-4">
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2 nk-logo-altis-text">
-            <div class="nk-logo-altis-text-1">Powered by</div>
-            <div class="nk-logo-altis-text-2">Altis Amersfoort</div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2">
-            <a href="http://www.altis.nl" target="_blank"><img class="nk-logo-altis" src="images/altislogo.jpg"></a>
-        </div>
-    </div>
-</div>
+    <div ng-include="nkHeaderPartial"></div>
 
-<div class="visible-xs">
-    <img class="nk-header-5kamp-logo-xs" src="images/knau-nk-5kamp-logo.jpg">
-    <img class="nk-header-5kamp-foto-xs" src="images/altis-baan.jpg">
-    <div class="nk-header-text-xs">30 en 31 mei 2015 - NK Masters Werpen</div>
-</div>
-<div class="visible-sm visible-md visible-lg nk-header">
-    <img class="nk-header-foto" src="images/altis-baan.jpg">
-    <div class="nk-header-text">
-        <div class="nk-header-text-1">Atletiekvereniging Altis organiseert</div>
-        <div class="nk-header-text-2">NK Masters Werpen 2015</div>
-        <div class="nk-header-text-3">Amersfoort, 30 en 31 mei 2015</div>
-        <img class="nk-header-5kamp-logo" src="images/knau-nk-5kamp-logo.jpg">
-    </div>
-</div>
-
-<nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-
-            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#nkNavigation">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <!-- <a href="../" class="navbar-brand">NK Masters</a> -->
-
-        </div>
-
-        <div class="collapse navbar-collapse" id="nkNavigation" role="navigation">
-
-            <ul class="nav navbar-nav">
-                <li><a href="./index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-                <li><a href="./programma.html">Programma</a></li>
-                <li><a href="./inschrijven.html">Inschrijven</a></li>
-                <li><a href="./blank.html">Deelnemers</a></li>
-                <li><a href="./blank.html">Uitslagen</a></li>
-                <li><a href="./blank.html">Route</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-
-        </div>
-    </div>
-</nav>
-
-<div class="nk-line"></div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4 col-md-4 col-lg-4">
-            <img class="nk-news-photo" src="images/nk-news-01.jpg">
-        </div>
-        <div class="col-sm-8 col-md-8 col-lg-8">
-            <div class="nk-news-header">Organisatie NK Werpen 2015 van start</div>
-            <div class="nk-news-date">Zondag 4 januari 2015</div>
-            <p class="nk-news-text">Zondag 4 januari jl. is het contract tussen de Atletiekunie en Altis ondertekend
-                over de organisatie van het Nederlands Kampioenschap Masters Kogelslingeren, Gewichtwerpen en Werpvijfkamp 2015.
-                Dit NK zal dit jaar plaatsvinden op zaterdag 30 en zondag 31 mei op atletiekbaan Schothorst in Amersfoort.
-                Altis-voorzitter Hubert Fermina is blij en trots met deze toewijzing:
-                “Deze toekenning is een erkenning van het beleid van Altis om de atletieksport in Amersfoort in de top
-                en breedte te stimuleren. Ik weet zeker dat we hier met onze vrijwilligers, Klaverblad Verzekeringen,
-                overige sponsors, SRO en gemeente, een geweldig evenement van gaan maken. Ook is dit NK een mooie opmaat naar
-                het NK Masters dat Altis in 2016 mag organiseren”.</p>
-            <p class="nk-news-text">Binnenkort op deze website meer informatie over dit NK.</p>
-           </div>
-    </div>
-</div>
-
+    <div ui-view></div>
 
 </body>
 </html>
