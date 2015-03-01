@@ -1,7 +1,7 @@
 'use strict';
 
 // App level module
-angular.module('altisNKMasters', ['ui.router'])
+angular.module('altisNKMasters', ['ui.router', 'ui.bootstrap'])
 
     .config(['$stateProvider', '$urlRouterProvider',
 
@@ -42,3 +42,4 @@ angular.module('altisNKMasters', ['ui.router'])
                 });
 
         }]);
+
