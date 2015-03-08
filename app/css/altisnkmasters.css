@@ -80,6 +80,7 @@
 }
 
 /* Default text */
+
 .nk-text {
     font-size: 16px;
 }
@@ -98,6 +99,7 @@
 .nk-text-link {
     color: #F0810F;
 }
+
 
 /* homepage and news */
 .nk-line {
@@ -156,10 +158,16 @@
     }
     .nk-news-text {
         font-size: 16px;
-        padding-left: 14px;
+        padding-left: 15px;
     }
     .nk-news-horizontal-line {
-        margin-left: 14px;
+        margin-left: 15px;
+    }
+    .nk-text-kantlijn {
+        padding-left: 15px;
+    }
+    .nk-tabel-kantlijn {
+        margin-left: -2px;
     }
 }
 

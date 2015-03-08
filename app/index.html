@@ -14,11 +14,12 @@
     <script src="lib/js/angular-ui-router.min.js"></script>
     <script src="lib/js/ui-bootstrap-custom.min.js"></script>
 
-    <script src="js/nk.min.js"></script>
+    <!--<script src="js/nk.min.js"></script>-->
 
-    <!--<script src="js/altisNKMasters.js"></script>-->
-    <!--<script src="js/controllers/nkController.js"></script>-->
-    <!--<script src="js/controllers/nkNavigationController.js"></script>-->
+    <script src="js/altisNKMasters.js"></script>
+    <script src="js/controllers/nkController.js"></script>
+    <script src="js/controllers/nkNavigationController.js"></script>
+    <script src="js/controllers/nkNewsItemController.js"></script>
 
 </head>
 <body ng-controller="altisNKMastersCTRL">
@@ -26,6 +27,8 @@
     <div ng-include="'partials/header.html'"></div>
 
     <div ui-view></div>
+
+    <div ng-include="'partials/footer.html'"></div>
 
 </body>
 </html>
