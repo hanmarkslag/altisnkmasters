@@ -83,6 +83,18 @@
 .nk-text {
     font-size: 16px;
 }
+.nk-h1-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+.nk-h2-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+.nk-underline-text {
+    font-size: 16px;
+    text-decoration: underline;
+}
 
 /* homepage and news */
 .nk-line {
@@ -106,6 +118,12 @@
     font-size: 16px;
     padding-left: 0px;
 
+}
+
+/* pdf logo */
+.nk-pdf-logo {
+    height: 24px;
+    padding-left: 10px;
 }
 
 /* Default: mobile devices < 768px */
