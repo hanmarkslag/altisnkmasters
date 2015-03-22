@@ -100,6 +100,32 @@
     color: #F0810F;
 }
 
+/* Table deelnemers */
+.nk-table-align th {
+    padding-right: 15px;
+}
+.nk-table-expand {
+    padding-bottom: 10px;
+}
+.nk-table-expand a {
+     color: grey;
+     cursor: pointer;
+ }
+.nk-deelnemer td {
+    padding: 3px 25px 2px 0px;
+    font-size: 14px;
+}
+.nk-text-onderdeel td {
+    padding-left: 15px;
+    font-size: 14px;
+    font-style: italic;
+    color: darkgray;
+}
+/*.nk-deelnemer:hover {*/
+/*color: blue;*/
+/*cursor: pointer;*/
+/*}*/
+
 
 /* homepage and news */
 .nk-line {
@@ -166,8 +192,8 @@
     .nk-text-kantlijn {
         padding-left: 15px;
     }
-    .nk-tabel-kantlijn {
-        margin-left: -2px;
+    .nk-table-align {
+        margin-left: 15px;
     }
 }
 
@@ -211,8 +237,6 @@
         margin-top: 40px;
     }
 }
-
-
 
 
 

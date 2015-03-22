@@ -1,0 +1,42 @@
+<div ng-controller="nkDeelnemersCTRL">
+
+    <div class="container">
+
+        <div class="row nk-text-kantlijn">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="nk-h2-text">Inschrijvingen</p>
+                <div class="nk-text">Het onderstaande overzicht bevat de inschrijvingen, bijgewerkt tot 22 maart 2015.
+                    Na screening door de Atletiekunie zal de deelnemerlijst definitief vastgesteld
+                    worden. Eventuele onjuistheden kunt u per email doorgeven aan de webbeheerder
+                    (webbeheer@altisnkmasters.nl).</div>
+            </div>
+        </div>
+
+        <hr class="nk-news-horizontal-line">
+
+        <div class="nk-text-kantlijn nk-table-expand">
+            <a ng-hide="showDetails" ng-click="toggleDetails()">Toon onderdelen deelnemers</a>
+            <a ng-show="showDetails" ng-click="toggleDetails()">Verberg onderdelen deelnemers</a>
+        </div>
+
+        <table class="nk-text nk-table-align">
+            <tr>
+                <th>Naam</th>
+                <th>Vereniging</th>
+                <th>Cat.</th>
+            </tr>
+
+            <tbody ng-repeat="deelnemer in deelnemers | orderBy:'naam'">
+            <tr class="nk-deelnemer">
+                <td>{{deelnemer.naam}}</td>
+                <td>{{deelnemer.vereniging}}</td>
+                <td>{{deelnemer.categorie}}</td>
+            </tr>
+            <tr class="nk-text-onderdeel" ng-show="showDetails" ng-repeat="onderdeel in deelnemer.onderdelen">
+                <td colspan="3">{{onderdeel.onderdeel}} (best 14/15: {{onderdeel.prestatie}})</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
