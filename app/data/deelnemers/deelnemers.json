@@ -1,0 +1,520 @@
+[
+  {
+    "naam": "Henk van Bakel",
+    "vereniging": "Swift",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "34,77m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "14,42m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "3379pt"
+      }
+    ]
+  },
+  {
+    "naam": "Cees van Blerck",
+    "vereniging": "Scorpio",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "29,98m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "11,39m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2850pt"
+      }
+    ]
+  },
+  {
+    "naam": "Corné Bolders",
+    "vereniging": "Diomedon",
+    "categorie": "M35",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2063pt"
+      }
+    ]
+  },
+  {
+    "naam": "Richard Bot",
+    "vereniging": "SAV",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "45,91m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "12,02m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2936pt"
+      }
+    ]
+  },
+  {
+    "naam": "Yvette Bot",
+    "vereniging": "SAV",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren vrouwen zaterdag",
+        "prestatie": "42,33m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen vrouwen zaterdag",
+        "prestatie": "11,16m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp vrouwen zondag",
+        "prestatie": "2764pt"
+      }
+    ]
+  },
+  {
+    "naam": "Mirjam van den Bremen",
+    "vereniging": "Clytoneus",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren vrouwen zaterdag",
+        "prestatie": "33,77m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen vrouwen zaterdag",
+        "prestatie": "11,14m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp vrouwen zondag",
+        "prestatie": "3000pt"
+      }
+    ]
+  },
+  {
+    "naam": "Marco Bronswijk",
+    "vereniging": "Olympus '70",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "44,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "13,12m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "3333pt"
+      }
+    ]
+  },
+  {
+    "naam": "Pascal Geursen",
+    "vereniging": "Suomi",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "28,66m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "9,59m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2540pt"
+      }
+    ]
+  },
+  {
+    "naam": "Harald Gijtenbeek",
+    "vereniging": "Altis",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "38,81m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "12,02m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2701pt"
+      }
+    ]
+  },
+  {
+    "naam": "Leonie van Ginneken",
+    "vereniging": "Diomedon",
+    "categorie": "V55",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp vrouwen zondag",
+        "prestatie": "3024pt"
+      }
+    ]
+  },
+  {
+    "naam": "Dirk Jan Giskes",
+    "vereniging": "NOVA",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "36,67m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "15,61m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2837pt"
+      }
+    ]
+  },
+  {
+    "naam": "Onno Heerlien",
+    "vereniging": "Groningen Atletiek",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "47,97m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "16,34m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "3438pt"
+      }
+    ]
+  },
+  {
+    "naam": "Tiny Hellendoorn",
+    "vereniging": "Isala '96",
+    "categorie": "V60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren vrouwen zaterdag",
+        "prestatie": "37,79m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen vrouwen zaterdag",
+        "prestatie": "13,28m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp vrouwen zondag",
+        "prestatie": "4119pt"
+      }
+    ]
+  },
+  {
+    "naam": "Frans Klep",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "32,84m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "11,87m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "3125pt"
+      }
+    ]
+  },
+  {
+    "naam": "Anja Korff-Lanters",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "V60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren vrouwen zaterdag",
+        "prestatie": "25,33m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen vrouwen zaterdag",
+        "prestatie": "10,41m"
+      }
+    ]
+  },
+  {
+    "naam": "Frans de Laat",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "36,29m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "13,65m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "3799pt"
+      }
+    ]
+  },
+  {
+    "naam": "Michel Leinders",
+    "vereniging": "Unitas",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "51,82m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "17,98m"
+      }
+    ]
+  },
+  {
+    "naam": "Brian Lesterhuis",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "42,28m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "13,86m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Loes Luijendijk",
+    "vereniging": "PAC",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp vrouwen zondag",
+        "prestatie": "2037pt"
+      }
+    ]
+  },
+  {
+    "naam": "Albert van der Mee",
+    "vereniging": "Sprint",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "41,03m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "15,68m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "3805pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martijn van de Peppel",
+    "vereniging": "VAV",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "28,48m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "8,80m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2097pt"
+      }
+    ]
+  },
+  {
+    "naam": "Joost Prins",
+    "vereniging": "GAC",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "33,62m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "12,50m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2411pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martin Albert Regtop",
+    "vereniging": "TION",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "39,92m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "16,06m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Niels Schager",
+    "vereniging": "AV '23",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "25,76m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "6,57m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2029pt"
+      }
+    ]
+  },
+  {
+    "naam": "Jan Smit",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "M80",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "21,72m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "8,59m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "2369pt"
+      }
+    ]
+  },
+  {
+    "naam": "Jan van Hooft",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+       {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "3261pt"
+      }
+    ]
+  },
+  {
+    "naam": "Jeroen Vis",
+    "vereniging": "PAC",
+    "categorie": "M35",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "38,52m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "10,94m"
+      }
+    ]
+  },
+  {
+    "naam": "Linda van Vliet",
+    "vereniging": "PAC",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren vrouwen zaterdag",
+        "prestatie": "30,99m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen vrouwen zaterdag",
+        "prestatie": "8,82m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp vrouwen zondag",
+        "prestatie": "2107pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martin Wijand",
+    "vereniging": "AAC",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren mannen zaterdag",
+        "prestatie": "52,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen mannen zaterdag",
+        "prestatie": "14,97m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp mannen zondag",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Joyce de Wit",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp vrouwen zondag",
+        "prestatie": "1024pt"
+      }
+    ]
+  }
+]
