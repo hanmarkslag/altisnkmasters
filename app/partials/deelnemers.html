@@ -20,13 +20,20 @@
         </div>
 
         <table class="nk-text nk-table-align">
-            <tr>
-                <th>Naam</th>
-                <th>Vereniging</th>
-                <th>Cat.</th>
+            <tr class="nk-table-header">
+                <!--<th><a href="" ng-click="sortOrder='-naam'; reverse=!reverse">Naam</a></th>-->
+                <!--<th><a href="" ng-click="sortOrder='-vereniging'; reverse=!reverse">Vereniging</a></th>-->
+                <!--<th><a href="" ng-click="sortOrder='-categorie'; reverse=!reverse">Cat.</a></th>-->
+                <th><a href="" ng-click="sortOrder='naam';
+                    reverse=reverseNaam; reverseNaam=!reverseNaam; reverseVereniging=false; reverseCategorie=false;">Naam</a></th>
+                <th><a href="" ng-click="sortOrder='vereniging';
+                    reverse=reverseVereniging; reverseVereniging=!reverseVereniging; reverseNaam=false; reverseCategorie=false;">Vereniging</a></th>
+                <th><a href="" ng-click="sortOrder='categorie';
+                    reverse = reverseCategorie; reverseCategorie=!reverseCategorie; reverseNaam=false; reverseVereniging=false;">Cat.</a></th>
             </tr>
 
-            <tbody ng-repeat="deelnemer in deelnemers | orderBy:'naam'">
+            <!--<tbody ng-repeat="deelnemer in deelnemers | orderBy:sortOrder:reverse">-->
+            <tbody ng-repeat="deelnemer in deelnemers | orderBy:sortOrder:reverse">
             <tr class="nk-deelnemer">
                 <td>{{deelnemer.naam}}</td>
                 <td>{{deelnemer.vereniging}}</td>
@@ -37,6 +44,13 @@
             </tr>
             </tbody>
         </table>
+
+        <div class="row nk-text-kantlijn">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <br>
+                <p class="nk-text" style="font-style: italic;">-- Bijgewerkt tot 22 maart 2015 --</p>
+            </div>
+        </div>
 
     </div>
 </div>
