@@ -20,11 +20,8 @@ angular.module('altisNKMasters').controller('nkDeelnemersCTRL', ['$scope', 'nkDe
         $scope.sortOrder = 'naam';
 
         $scope.reverse = false;
-        $scope.reverseNaam = false;
+        $scope.reverseNaam = true;
         $scope.reverseVereniging = false;
         $scope.reverseCategorie = false;
-
-
-        
 
     }]);
