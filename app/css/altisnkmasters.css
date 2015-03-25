@@ -112,12 +112,15 @@
     cursor: pointer;
     text-decoration: none;
  }
+.nk-table-header {
+    font-size: 14px;
+}
 .nk-table-header a {
     color: #000000;
     text-decoration: none;
 }
 .nk-deelnemer td {
-    padding: 3px 20px 2px 0px;
+    padding: 3px 15px 2px 0px;
     font-size: 14px;
 }
 .nk-text-onderdeel td {
