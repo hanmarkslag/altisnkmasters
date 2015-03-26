@@ -101,6 +101,9 @@
 }
 
 /* Table deelnemers */
+.nk-table-align {
+    padding-right: 15px;
+}
 .nk-table-align th {
     padding-right: 15px;
 }
