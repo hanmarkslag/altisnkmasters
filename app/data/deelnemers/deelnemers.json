@@ -400,7 +400,7 @@
       },
       {
         "onderdeel": "Werpvijfkamp zo",
-        "prestatie": "-"
+        "prestatie": "3853pt"
       }
     ]
   },
@@ -502,7 +502,7 @@
       },
       {
         "onderdeel": "Werpvijfkamp zo",
-        "prestatie": "-"
+        "prestatie": "3205pt"
       }
     ]
   },
@@ -514,6 +514,122 @@
       {
         "onderdeel": "Werpvijfkamp zo",
         "prestatie": "1024pt"
+      }
+    ]
+  },
+  {
+    "naam": "Gert Velthuizen",
+    "vereniging": "Spark",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2015pt"
+      }
+    ]
+  },
+  {
+    "naam": "Gonny Mik",
+    "vereniging": "Groningen Atletiek",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "50,37m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "17,19m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Hans de Vries",
+    "vereniging": "SAV",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "32,75m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "12,49m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2841pt"
+      }
+    ]
+  },
+  {
+    "naam": "José van Apperven",
+    "vereniging": "AAV '36",
+    "categorie": "V55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "19,99m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2261pt"
+      }
+    ]
+  },
+  {
+    "naam": "Margreeth Hissink",
+    "vereniging": "PAC",
+    "categorie": "V65",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Marianne Groenendijk",
+    "vereniging": "AV Gouda",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Rens Haanstra",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "19,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,08m"
+      }
+    ]
+  },
+  {
+    "naam": "Simone Veth",
+    "vereniging": "Passaat",
+    "categorie": "V35",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2773pt"
       }
     ]
   }
