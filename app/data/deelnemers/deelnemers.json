@@ -632,5 +632,92 @@
         "prestatie": "2773pt"
       }
     ]
+  },
+  {
+    "naam": "Ingrid Vos",
+    "vereniging": "België (*)",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "38,37m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,11m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3366pt"
+      }
+    ]
+  },
+  {
+    "naam": "Mireille Tonizzo-Kosmala",
+    "vereniging": "Luxemburg (*)",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "40,33m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,09m"
+      }
+    ]
+  },
+  {
+    "naam": "Stephane Tonizzo",
+    "vereniging": "Luxemburg (*)",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "48,50m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,11m"
+      }
+    ]
+  },
+  {
+    "naam": "Carel van der Werf",
+    "vereniging": "Phoenix",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "42,28m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,40m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3022pt"
+      }
+    ]
+  },
+  {
+    "naam": "Erwin Suvaal",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "51,60m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "17,94m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3340pt"
+      }
+    ]
   }
 ]
