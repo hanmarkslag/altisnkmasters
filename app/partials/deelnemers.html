@@ -1,4 +1,4 @@
-<div ng-controller="nkDeelnemersCTRL">
+<div ng-controller="nkDeelnemersCTRL" xmlns="http://www.w3.org/1999/html">
 
     <div class="container">
 
@@ -19,6 +19,11 @@
             <a ng-show="showDetails" ng-click="toggleDetails()" style="color: #F0810F;">Verberg onderdelen deelnemers</a>
         </div>
 
+        <div class="nk-search-deelnemer">
+            <input type="search" class="nk-search-deelnemer-input" placeholder="Zoek deelnemer..." ng-model="searchText">
+            <span class="glyphicon glyphicon-search" style="padding-top: 5px; margin-left: -25px;"></span>
+        </div>
+
         <table class="nk-text nk-table-align">
             <tr class="nk-table-header">
                 <th><a href="" ng-click="sortOrder='naam';
@@ -33,7 +38,7 @@
             </tr>
 
             <!--<tbody ng-repeat="deelnemer in deelnemers | orderBy:sortOrder:reverse">-->
-            <tbody ng-repeat="deelnemer in deelnemers | orderBy:sortOrder:reverse">
+            <tbody ng-repeat="deelnemer in deelnemers | searchDeelnemer:searchText | orderBy:sortOrder:reverse">
             <tr class="nk-deelnemer">
                 <td>{{deelnemer.naam}}</td>
                 <td>{{deelnemer.vereniging}}</td>

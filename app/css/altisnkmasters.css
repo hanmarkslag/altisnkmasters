@@ -132,10 +132,11 @@
     font-style: italic;
     color: grey;
 }
-/*.nk-deelnemer:hover {*/
-/*color: blue;*/
-/*cursor: pointer;*/
-/*}*/
+.nk-search-deelnemer-input {
+    padding-left: 5px;
+    padding-right: 57px;
+    margin-bottom: 10px;
+}
 
 
 /* homepage and news */
@@ -205,6 +206,9 @@
     }
     .nk-table-align {
         margin-left: 15px;
+    }
+    .nk-search-deelnemer {
+        padding-left: 15px;
     }
 }
 
@@ -293,11 +297,15 @@
 }
 
 /* glyphicon */
-.glyphicon {
+.nav .glyphicon {
     color: #F0810F;
 }
 .navbar-default .glyphicon:hover,
 .navbar-default .glyphicon:focus {
     color: #003473;
 }
+.nk-search-deelnemer .glyphicon {
+    color: darkgray;
+}
+
 
