@@ -99,6 +99,10 @@
 .nk-text-link {
     color: #F0810F;
 }
+.nk-email {
+    color: dimgray;
+    font-style: italic;
+}
 
 /* Table deelnemers */
 .nk-table-align {
@@ -197,6 +201,9 @@
     .nk-news-text {
         font-size: 16px;
         padding-left: 15px;
+    }
+    .nk-news-text ul {
+        padding-left: 500px;
     }
     .nk-news-horizontal-line {
         margin-left: 15px;
