@@ -719,5 +719,119 @@
         "prestatie": "3340pt"
       }
     ]
+  },
+  {
+    "naam": "Han van Dijk",
+    "vereniging": "Hanzesport",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Rob Zwijnenburg",
+    "vereniging": "Avantri",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "36,45m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "10,96m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2911pt"
+      }
+    ]
+  },
+  {
+    "naam": "Sjaak van den Bedem",
+    "vereniging": "Altis",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Jan Titulaer",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "35,99m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "15,08m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3514pt"
+      }
+    ]
+  },
+  {
+    "naam": "Ruud van de Ven",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,13m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2548pt"
+      }
+    ]
+  },
+  {
+    "naam": "Frits Martens",
+    "vereniging": "Hollandia",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "30,25m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,44m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
   }
 ]
