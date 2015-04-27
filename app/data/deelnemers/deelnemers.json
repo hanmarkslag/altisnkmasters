@@ -844,5 +844,132 @@
         "prestatie": "-"
       }
     ]
+  },
+  {
+    "naam": "Peter van Noort",
+    "vereniging": "De Spartaan",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "58,80m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "20,87m"
+      }
+    ]
+  },
+  {
+    "naam": "Jacqueline Thijssen",
+    "vereniging": "GVAC",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "18,46m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "5,76m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "1698pt"
+      }
+    ]
+  },
+  {
+    "naam": "Harry van den Heuvel",
+    "vereniging": "AVV",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Marlies van Woerden",
+    "vereniging": "Prins Hendrik",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "30,52m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,26m"
+      }
+    ]
+  },
+  {
+    "naam": "Annie van Anholt",
+    "vereniging": "Attila",
+    "categorie": "V65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "40,47m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "16,11m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "4702pt"
+      }
+    ]
+  },
+  {
+    "naam": "Erwin Bökenkamp",
+    "vereniging": "AV Edam",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2821pt"
+      }
+    ]
+  },
+  {
+    "naam": "Roger van der Have",
+    "vereniging": "Altis",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Monica Kindervater",
+    "vereniging": "Hanzesport",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Frank Koopmans",
+    "vereniging": "PEC 1910",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
   }
 ]
