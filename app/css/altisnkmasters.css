@@ -149,6 +149,10 @@
     border-top: 1px solid #F0810F;
     margin-bottom: 20px;
 }
+.nk-line-footer {
+     border-top: 1px solid #F0810F;
+     margin-bottom: 10px;
+}
 
 .nk-news-header {
     font-weight: bold;
