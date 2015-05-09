@@ -816,17 +816,6 @@
     ]
   },
   {
-    "naam": "Klaus Kynast",
-    "vereniging": "Duitsland (*)",
-    "categorie": "M65",
-    "onderdelen": [
-     {
-        "onderdeel": "Werpvijfkamp zo",
-        "prestatie": "-"
-      }
-    ]
-  },
-  {
     "naam": "Peter van Noort",
     "vereniging": "De Spartaan",
     "categorie": "M60",
@@ -950,6 +939,155 @@
       {
         "onderdeel": "Werpvijfkamp zo",
         "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Roland Boon",
+    "vereniging": "Flevo Delta",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Milco Braak",
+    "vereniging": "AAV '36",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3383pt"
+      }
+    ]
+  },
+  {
+    "naam": "Kees Versloot",
+    "vereniging": "De Liemers",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Jack van der Zijde",
+    "vereniging": "Ilion",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "38,94m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,08m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3231pt"
+      }
+    ]
+  },
+  {
+    "naam": "Louise Zimmerman",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "23,26m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "9,37m"
+      }
+    ]
+  },
+  {
+    "naam": "Rene Peeters",
+    "vereniging": "Atledo",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "36,41m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,88m"
+      }
+    ]
+  },
+  {
+    "naam": "Peter Blommestijn",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3449pt"
+      }
+    ]
+  },
+  {
+    "naam": "Laura Blommestijn-Euser",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V70",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3934pt"
+      }
+    ]
+  },
+  {
+    "naam": "Carla Hertog",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,65m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "10,99m"
+      }
+    ]
+  },
+  {
+    "naam": "Peter Blakmoor",
+    "vereniging": "Fit",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,40m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "9,83m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2374pt"
+      }
+    ]
+  },
+  {
+    "naam": "Wendy Koolhaas",
+    "vereniging": "Groningen Atletiek",
+    "categorie": "V35",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "62,44m"
       }
     ]
   }

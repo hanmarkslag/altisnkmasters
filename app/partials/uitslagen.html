@@ -1,0 +1,21 @@
+<div ng-controller="nkUitslagenCTRL" xmlns="http://www.w3.org/1999/html">
+
+    <div class="container">
+
+        Aantal uitslagen : {{uitslagen.size}}
+
+        <table class="nk-text nk-table-align">
+
+            <tbody ng-repeat="uitslag in uitslagen">
+            <tr>
+                <td>{{uitslag.startnummer}}</td>
+                <td>{{uitslag.naam}}</td>
+                <td>{{uitslag.vereniging}}</td>
+                <td>{{uitslag.categorie}}</td>
+                <td>{{uitslag.prestatie}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
