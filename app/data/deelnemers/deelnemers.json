@@ -1090,5 +1090,49 @@
         "prestatie": "62,44m"
       }
     ]
+  },
+  {
+    "naam": "Iris Steverink",
+    "vereniging": "Phoenix",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2059pt"
+      }
+    ]
+  },
+  {
+    "naam": "Rina van de Stouwee",
+    "vereniging": "AAV '36",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2146pt"
+      }
+    ]
+  },
+  {
+    "naam": "Marcel Dost",
+    "vereniging": "TION",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Wim Threels",
+    "vereniging": "GAC",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3012pt"
+      }
+    ]
   }
 ]
