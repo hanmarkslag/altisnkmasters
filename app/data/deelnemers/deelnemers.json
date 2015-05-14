@@ -460,7 +460,7 @@
     "onderdelen": [
       {
         "onderdeel": "Kogelslingeren za",
-        "prestatie": "38,52m"
+        "prestatie": "39.67m"
       },
       {
         "onderdeel": "Gewichtwerpen za",
@@ -567,13 +567,17 @@
     ]
   },
   {
-    "naam": "José van Apperven",
+    "naam": "José van Appeven",
     "vereniging": "AAV '36",
     "categorie": "V55",
     "onderdelen": [
       {
         "onderdeel": "Kogelslingeren za",
         "prestatie": "19,99m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "6,75m"
       },
       {
         "onderdeel": "Werpvijfkamp zo",
@@ -895,17 +899,6 @@
     ]
   },
   {
-    "naam": "Erwin Bökenkamp",
-    "vereniging": "AV Edam",
-    "categorie": "M45",
-    "onderdelen": [
-      {
-        "onderdeel": "Werpvijfkamp zo",
-        "prestatie": "2821pt"
-      }
-    ]
-  },
-  {
     "naam": "Roger van der Have",
     "vereniging": "Altis",
     "categorie": "M50",
@@ -1006,6 +999,10 @@
       {
         "onderdeel": "Gewichtwerpen za",
         "prestatie": "9,37m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
       }
     ]
   },
@@ -1134,5 +1131,145 @@
         "prestatie": "3012pt"
       }
     ]
+  },
+  {
+    "naam": "Geert Oerlemans",
+    "vereniging": "Diomedon",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "28,83m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "12,00m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3061pt"
+      }
+    ]
+  },
+  {
+    "naam": "Arno Hissink",
+    "vereniging": "PAC",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2363pt"
+      }
+    ]
+  },
+  {
+    "naam": "Dennis Enderman",
+    "vereniging": "Isala '96",
+    "categorie": "M35",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Leonie Berden",
+    "vereniging": "RK HAV",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "33,62m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,00m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3304pt"
+      }
+    ]
+  },
+  {
+    "naam": "Ingrid van Dijk",
+    "vereniging": "GAC",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "43,14m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,30m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3922pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martijn Zijl",
+    "vereniging": "Trias",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Mies Kuipers",
+    "vereniging": "Sprint",
+    "categorie": "V55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "16,39m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "5,24m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2247pt"
+      }
+    ]
+  },
+  {
+    "naam": "Corné Jacobs",
+    "vereniging": "Scopias",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2660pt"
+      }
+    ]
+  },
+  {
+    "naam": "Erwin Bökenkamp",
+    "vereniging": "AV Edam",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "37,56m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "10,43m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2821pt"
+      }
+    ]
   }
+
 ]
