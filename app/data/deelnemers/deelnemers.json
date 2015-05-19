@@ -1270,6 +1270,58 @@
         "prestatie": "2821pt"
       }
     ]
+  },
+  {
+    "naam": "Jack Dekker",
+    "vereniging": "AV Castricum",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2821pt"
+      }
+    ]
+  },
+  {
+    "naam": "Michelle Blommestijn",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2944pt"
+      }
+    ]
+  },
+  {
+    "naam": "Anna Carpendale",
+    "vereniging": "Atletiek Maastricht (*)",
+    "categorie": "V35",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "33,12m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "9,86m"
+      }
+    ]
+  },
+  {
+    "naam": "Arno Oprins",
+    "vereniging": "Atletiek Maastricht",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,56m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,14m"
+      }
+    ]
   }
 
 ]
