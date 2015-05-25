@@ -24,7 +24,7 @@
         <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'Kogelslingeren';">
             <div class="col-sm-9 col-md-7 col-lg-6">
                 <table class="table table-bordered table-striped nk-table-align nk-table-align">
-                    <tr><th>#</th><th>Naam</th><th>Geb. datum</th><th class="hidden-xs">Vereniging</th><th style="text-align: right;">Afstand</th></tr>
+                    <tr><th>#</th><th style="width: 40%;>Naam</th><th>Geb. datum</th><th class="hidden-xs">Vereniging</th><th style="text-align: right;">Afstand</th></tr>
                     <tr ng-repeat="uitslag in uitslagenKogelslingeren | filter:nkSelectCategorie">
                         <td>{{uitslag.plaats}}</td>
                         <td>{{uitslag.naam}}</td>
@@ -39,7 +39,7 @@
         <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'Gewichtwerpen';">
             <div class="col-sm-9 col-md-7 col-lg-6">
                 <table class="table table-bordered table-striped nk-table-align nk-table-align">
-                    <tr><th>#</th><th>Naam</th><th>Geb. datum</th><th class="hidden-xs">Vereniging</th><th style="text-align: right;">Afstand</th></tr>
+                    <tr><th>#</th><th style="width: 40%;">Naam</th><th>Geb. datum</th><th class="hidden-xs">Vereniging</th><th style="text-align: right;">Afstand</th></tr>
                     <tr ng-repeat="uitslag in uitslagenGewichtwerpen | filter:nkSelectCategorie">
                         <td>{{uitslag.plaats}}</td>
                         <td>{{uitslag.naam}}</td>
