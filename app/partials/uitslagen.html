@@ -2,20 +2,56 @@
 
     <div class="container">
 
-        Aantal uitslagen : {{uitslagen.size}}
+        <div class="row nk-text-kantlijn">
+            <div class="col-sm-8 col-md-6 col-lg-5">
+                <p class="nk-h2-text">Selecteer Uitslag</p>
+            </div>
+        </div>
 
-        <table class="nk-text nk-table-align">
+        <div class="row nk-text-kantlijn" style="margin-bottom: 12px;">
+            <div class="col-sm-8 col-md-6 col-lg-5">
+                <span style="margin-right: 5px;">Onderdeel</span>
+                <select style="margin-right: 10px;" ng-model="nkSelectOnderdeel.onderdeel">
+                    <option ng-repeat="onderdeel in onderdelen" value="{{onderdeel}}">{{onderdeel}}</option>
+                </select>
+                <span style="margin-right: 5px;">Categorie</span>
+                <select ng-model="nkSelectCategorie.categorie">
+                    <option ng-repeat="categorie in categorien" value="{{categorie}}">{{categorie}}</option>
+                </select>
+            </div>
+        </div>
 
-            <tbody ng-repeat="uitslag in uitslagen">
-            <tr>
-                <td>{{uitslag.startnummer}}</td>
-                <td>{{uitslag.naam}}</td>
-                <td>{{uitslag.vereniging}}</td>
-                <td>{{uitslag.categorie}}</td>
-                <td>{{uitslag.prestatie}}</td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'Kogelslingeren';">
+            <div class="col-sm-9 col-md-7 col-lg-6">
+                <table class="table table-bordered table-striped nk-table-align nk-table-align">
+                    <tr><th>#</th><th>Naam</th><th>Geb. datum</th><th class="hidden-xs">Vereniging</th><th style="text-align: right;">Afstand</th></tr>
+                    <tr ng-repeat="uitslag in uitslagenKogelslingeren | filter:nkSelectCategorie">
+                        <td>{{uitslag.plaats}}</td>
+                        <td>{{uitslag.naam}}</td>
+                        <td>{{uitslag.geboortedatum}}</td>
+                        <td class="hidden-xs">{{uitslag.vereniging}}</td>
+                        <td style="text-align: right;">{{uitslag.afstand}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'Gewichtwerpen';">
+            <div class="col-sm-9 col-md-7 col-lg-6">
+                <table class="table table-bordered table-striped nk-table-align nk-table-align">
+                    <tr><th>#</th><th>Naam</th><th>Geb. datum</th><th class="hidden-xs">Vereniging</th><th style="text-align: right;">Afstand</th></tr>
+                    <tr ng-repeat="uitslag in uitslagenGewichtwerpen | filter:nkSelectCategorie">
+                        <td>{{uitslag.plaats}}</td>
+                        <td>{{uitslag.naam}}</td>
+                        <td>{{uitslag.geboortedatum}}</td>
+                        <td class="hidden-xs">{{uitslag.vereniging}}</td>
+                        <td style="text-align: right;">{{uitslag.afstand}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
 
     </div>
 </div>

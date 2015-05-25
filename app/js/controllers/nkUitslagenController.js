@@ -1,32 +1,17 @@
 /**
  * Controller for uitslagen
  */
-angular.module('altisNKMasters').controller('nkUitslagenCTRL', ['$scope', 'nkUitslagenService',
+angular.module('altisNKMasters').controller('nkUitslagenCTRL', ['$scope', 'nkLoadUitslagenService',
 
-    function ($scope, nkUitslagenService) {
+    function ($scope, nkLoadUitslagenService) {
 
-        $scope.uitslagen = getUitslagen("./data/uitslagen/", "uitslag-za-01");
+        $scope.uitslagenKogelslingeren = nkLoadUitslagenService.loadUitslagenKogelslingeren();
+        $scope.uitslagenGewichtwerpen = nkLoadUitslagenService.loadUitslagenGewichtwerpen();
 
-        nkUitslagenService.getUitslagen("./data/uitslagen/", "uitslag-za-02").then(
-            function(response) {
-                tmpPrestaties = response.data.prestaties;
-                for (var i = 0; i < tmpPrestaties.length; i++) {
-                    $scope.uitslagen.push(tmpPrestaties[i]);
-                }
-            }
-        );
+        $scope.onderdelen = ["Kogelslingeren","Gewichtwerpen","Werpvijfkamp"];
+        $scope.nkSelectOnderdeel = {onderdeel:"Kogelslingeren"};
+        $scope.categorien = ["V35","V40","V45","V50","V55","V60","V65","V70","M35","M40","M45","M50","M55","M60","M65","M70","M80"];
+        $scope.nkSelectCategorie = {categorie:'V35'};
 
-        function getUitslagen(tmpdirectory, tmpfilename) {
-            var result = null;
-            nkUitslagenService.getUitslagen(tmpdirectory, tmpfilename).then(
-                function(response) {
-
-                    //result is een locale !!!
-
-                    result = response.data.prestaties;
-                }
-            );
-            return result;
-        }
 
     }]);
