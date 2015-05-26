@@ -19,7 +19,7 @@
   },
   {
     "plaats": "3",
-    "naam": "Test Werper",
+    "naam": "Test Werper met lange naam",
     "categorie": "V35",
     "vereniging": "Test Club",
     "geboortedatum": "01-01-1899",
@@ -30,7 +30,7 @@
     "plaats": "4",
     "naam": "Test Werper",
     "categorie": "V35",
-    "vereniging": "Test Club",
+    "vereniging": "Test Club met lange naam",
     "geboortedatum": "01-01-1899",
     "afstand": "22,22"
 

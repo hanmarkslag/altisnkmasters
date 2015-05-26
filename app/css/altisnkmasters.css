@@ -176,6 +176,11 @@
     padding-left: 10px;
 }
 
+/* uitslagen */
+.nk-uitslag-getal {
+    text-align: right;
+}
+
 
 /* Default: mobile devices < 768px */
 
@@ -221,6 +226,9 @@
     }
     .nk-search-deelnemer {
         padding-left: 15px;
+    }
+    .nk-uitslag-text {
+        font-size: 12px;
     }
 }
 
