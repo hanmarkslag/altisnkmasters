@@ -57,9 +57,30 @@ angular.module('altisNKMasters').factory('nkLoadUitslagenService', ['nkUitslagen
                         uitslagenGewichtwerpen.push(uitslagen[i]);
                     }
                 }
+            },
+
+            loadUitslagenWerpvijfkamp: function() {
+
+                var uitslagenWerpvijfkamp = [];
+
+                loadJSONWerpvijfkamp("./data/uitslagen/", "uitslag-werpvijfkamp");
+
+                return uitslagenWerpvijfkamp;
+
+                function loadJSONWerpvijfkamp(uitslagDir, uitslagFile) {
+                    nkUitslagenService.getUitslagen(uitslagDir, uitslagFile).then(
+                        function(response) {
+                            concatUitslagenWerpvijfkamp(response.data);
+                        }
+                    );
+                }
+
+                function concatUitslagenWerpvijfkamp(uitslagen) {
+                    for (var i = 0; i < uitslagen.length; i++) {
+                        uitslagenWerpvijfkamp.push(uitslagen[i]);
+                    }
+                }
             }
         }
-
-
     }]);
 

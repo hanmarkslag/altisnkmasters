@@ -304,14 +304,6 @@
     "categorie": "M40",
     "onderdelen": [
       {
-        "onderdeel": "Kogelslingeren za",
-        "prestatie": "42,28m"
-      },
-      {
-        "onderdeel": "Gewichtwerpen za",
-        "prestatie": "13,86m"
-      },
-      {
         "onderdeel": "Werpvijfkamp zo",
         "prestatie": "-"
       }
@@ -544,25 +536,6 @@
       {
         "onderdeel": "Werpvijfkamp zo",
         "prestatie": "-"
-      }
-    ]
-  },
-  {
-    "naam": "Hans de Vries",
-    "vereniging": "SAV",
-    "categorie": "M60",
-    "onderdelen": [
-      {
-        "onderdeel": "Kogelslingeren za",
-        "prestatie": "32,75m"
-      },
-      {
-        "onderdeel": "Gewichtwerpen za",
-        "prestatie": "12,49m"
-      },
-      {
-        "onderdeel": "Werpvijfkamp zo",
-        "prestatie": "2841pt"
       }
     ]
   },
@@ -854,17 +827,6 @@
     ]
   },
   {
-    "naam": "Harry van den Heuvel",
-    "vereniging": "AVV",
-    "categorie": "M70",
-    "onderdelen": [
-      {
-        "onderdeel": "Werpvijfkamp zo",
-        "prestatie": "-"
-      }
-    ]
-  },
-  {
     "naam": "Marlies van Woerden",
     "vereniging": "Prins Hendrik",
     "categorie": "V45",
@@ -988,25 +950,6 @@
     ]
   },
   {
-    "naam": "Louise Zimmerman",
-    "vereniging": "Rotterdam Atletiek",
-    "categorie": "V60",
-    "onderdelen": [
-      {
-        "onderdeel": "Kogelslingeren za",
-        "prestatie": "23,26m"
-      },
-      {
-        "onderdeel": "Gewichtwerpen za",
-        "prestatie": "9,37m"
-      },
-      {
-        "onderdeel": "Werpvijfkamp zo",
-        "prestatie": "-"
-      }
-    ]
-  },
-  {
     "naam": "Rene Peeters",
     "vereniging": "Atledo",
     "categorie": "M45",
@@ -1040,21 +983,6 @@
       {
         "onderdeel": "Werpvijfkamp zo",
         "prestatie": "3934pt"
-      }
-    ]
-  },
-  {
-    "naam": "Carla Hertog",
-    "vereniging": "Rotterdam Atletiek",
-    "categorie": "V50",
-    "onderdelen": [
-      {
-        "onderdeel": "Kogelslingeren za",
-        "prestatie": "29,65m"
-      },
-      {
-        "onderdeel": "Gewichtwerpen za",
-        "prestatie": "10,99m"
       }
     ]
   },

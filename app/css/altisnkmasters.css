@@ -180,6 +180,10 @@
 .nk-uitslag-getal {
     text-align: right;
 }
+.nk-uitslag-pnt {
+    text-align: right;
+    font-weight: normal;
+}
 
 
 /* Default: mobile devices < 768px */

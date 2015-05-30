@@ -4,7 +4,8 @@
 
         <div class="row nk-text-kantlijn">
             <div class="col-sm-8 col-md-6 col-lg-5">
-                <p class="nk-h2-text">Selecteer Uitslag</p>
+                <p class="nk-h2-text">Uitslagen<br>
+                <span style="font-size: 14px; font-weight: normal">Ververs het scherm regelmatig om de laatste uitslagen te bekijken</span></p>
             </div>
         </div>
 
@@ -21,7 +22,7 @@
             </div>
         </div>
 
-        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'Kogelslingeren';">
+        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'NK Kogelslingeren';">
             <div class="col-sm-10 col-md-8 col-lg-7">
                 <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
                     <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th style="text-align: right;">Afstand</th></tr>
@@ -36,68 +37,69 @@
             </div>
         </div>
 
-        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'Gewichtwerpen';">
+        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === 'NK Gewichtwerpen';">
             <div class="col-sm-10 col-md-8 col-lg-7">
                 <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
-                    <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th style="text-align: right;">Afstand</th></tr>
+                    <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Afstand</th></tr>
                     <tr ng-repeat="uitslag in uitslagenGewichtwerpen | filter:nkSelectCategorie">
                         <td>{{uitslag.plaats}}</td>
                         <td>{{uitslag.naam}}</td>
                         <td class="hidden-xs">{{uitslag.geboortedatum}}</td>
                         <td>{{uitslag.vereniging}}</td>
-                        <td style="text-align: right;">{{uitslag.afstand}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.afstand}}</td>
                     </tr>
                 </table>
             </div>
         </div>
 
-        <div class="row hidden-xs" ng-show="nkSelectOnderdeel.onderdeel === 'Werpvijfkamp';">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
+        <!--<div class="row hidden-xs" ng-show="nkSelectOnderdeel.onderdeel === 'NK Werpvijfkamp';">-->
+            <!--<div class="col-sm-12 col-md-12 col-lg-12">-->
+                <!--<table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">-->
 
-                    <tr><th>#</th><th>Naam</th><th>Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Totaal</th>
-                        <th class="nk-uitslag-getal">Kgl</th><th></th>
-                        <th class="nk-uitslag-getal">Spr</th><th></th>
-                        <th class="nk-uitslag-getal">Dis</th><th></th>
-                        <th class="nk-uitslag-getal">Ksl</th><th></th>
-                        <th class="nk-uitslag-getal">Gwr</th><th></th></tr>
+                    <!--<tr><th>#</th><th>Naam</th><th>Geb. datum</th><th>Vereniging</th>-->
+                        <!--<th class="nk-uitslag-getal">Totaal</th>-->
+                        <!--<th class="nk-uitslag-getal">Kgl</th><th class="nk-uitslag-pnt">pnt</th>-->
+                        <!--<th class="nk-uitslag-getal">Spr</th><th class="nk-uitslag-pnt">pnt</th>-->
+                        <!--<th class="nk-uitslag-getal">Dis</th><th class="nk-uitslag-pnt">pnt</th>-->
+                        <!--<th class="nk-uitslag-getal">Ksl</th><th class="nk-uitslag-pnt">pnt</th>-->
+                        <!--<th class="nk-uitslag-getal">Gwr</th><th class="nk-uitslag-pnt">pnt</th></tr>-->
 
-                    <tr><td>1</td><td>Test Werper</td><td>01-01-1909</td><td>Test Club</td><td class="nk-uitslag-getal">4321</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">876</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">765</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">654</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">543</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">432</td></tr>
-                    <tr><td>2</td><td>Test Werper</td><td>01-01-1909</td><td>Test Club</td><td class="nk-uitslag-getal">4321</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">876</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">765</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">654</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">543</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">432</td></tr>
-                    <tr><td>3</td><td>Test Werper met lange naam</td><td>01-01-1909</td><td>Test Club</td><td class="nk-uitslag-getal">4321</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">876</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">765</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">654</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">543</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">432</td></tr>
-                    <tr><td>4</td><td>Test Werper</td><td>01-01-1909</td><td>Test Club met lange naam</td><td class="nk-uitslag-getal">4321</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">876</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">765</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">654</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">543</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">432</td></tr>
-                    <tr><td>5</td><td>Test Werper</td><td>01-01-1909</td><td>Test Club</td><td class="nk-uitslag-getal">4321</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">876</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">765</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">654</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">543</td>
-                        <td class="nk-uitslag-getal">12,34</td><td class="nk-uitslag-getal">432</td></tr>
+                    <!--<tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie">-->
+                        <!--<td>{{$index+1}}</td>-->
+                        <!--<td>{{uitslag.naam}}</td>-->
+                        <!--<td>{{uitslag.geboortedatum}}</td>-->
+                        <!--<td>{{uitslag.vereniging}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.puntentotaal}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.uitslagkogel}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.puntenkogel}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.uitslagspeer}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.puntenspeer}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.uitslagdiscus}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.puntendiscus}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.uitslagkogelslingeren}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.puntenkogelslingeren}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.uitslaggewichtwerpen}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.puntengewichtwerpen}}</td>-->
+                    <!--</tr>-->
 
-                </table>
-            </div>
-        </div>
+                <!--</table>-->
+            <!--</div>-->
+        <!--</div>-->
 
-
+        <!--<div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Kogel';">-->
+            <!--<div class="col-sm-10 col-md-8 col-lg-7">-->
+                <!--<table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">-->
+                    <!--<tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Afstand</th></tr>-->
+                    <!--<tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie | orderBy:'uitslagkogel'">-->
+                        <!--<td>{{$index+1}}</td>-->
+                        <!--<td>{{uitslag.naam}}</td>-->
+                        <!--<td class="hidden-xs">{{uitslag.geboortedatum}}</td>-->
+                        <!--<td>{{uitslag.vereniging}}</td>-->
+                        <!--<td class="nk-uitslag-getal">{{uitslag.uitslagkogel}}</td>-->
+                    <!--</tr>-->
+                <!--</table>-->
+            <!--</div>-->
+        <!--</div>-->
 
     </div>
 </div>
