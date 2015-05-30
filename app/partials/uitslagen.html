@@ -5,17 +5,17 @@
         <div class="row nk-text-kantlijn">
             <div class="col-sm-8 col-md-6 col-lg-5">
                 <p class="nk-h2-text">Uitslagen<br>
-                <span style="font-size: 14px; font-weight: normal">Ververs het scherm regelmatig om de laatste uitslagen te bekijken</span></p>
+                <span style="font-size: 14px; font-weight: normal">Ververs het scherm regelmatig om de laatste uitslagen te bekijken.</span></p>
             </div>
         </div>
 
         <div class="row nk-text-kantlijn" style="margin-bottom: 12px;">
             <div class="col-sm-8 col-md-6 col-lg-5">
-                <span style="margin-right: 5px;">Onderdeel</span>
+                <span class="hidden-xs" style="margin-right: 5px;">Onderdeel</span>
                 <select style="margin-right: 10px;" ng-model="nkSelectOnderdeel.onderdeel">
                     <option ng-repeat="onderdeel in onderdelen" value="{{onderdeel}}">{{onderdeel}}</option>
                 </select>
-                <span style="margin-right: 5px;">Categorie</span>
+                <span class="hidden-xs" style="margin-right: 5px;">Categorie</span>
                 <select ng-model="nkSelectCategorie.categorie">
                     <option ng-repeat="categorie in categorien" value="{{categorie}}">{{categorie}}</option>
                 </select>
