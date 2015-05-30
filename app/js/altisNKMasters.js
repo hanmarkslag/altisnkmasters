@@ -16,6 +16,10 @@ angular.module('altisNKMasters', ['ui.router', 'ui.bootstrap'])
                     url: "/news",
                     templateUrl: "partials/news.html"
                 })
+                .state('nieuwsarchief', {
+                    url: "/newsarchive",
+                    templateUrl: "../partials/nieuwsarchief.html"
+                })
                 .state('programma', {
                     url: "/programma",
                     templateUrl: "partials/programma.html"
