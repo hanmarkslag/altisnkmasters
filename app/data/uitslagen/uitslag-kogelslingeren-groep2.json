@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "plaats": "1",
+    "naam": "Michel Leinders",
+    "categorie": "M50",
+    "vereniging": "Unitas",
+    "geboortedatum": "10-03-1962",
+    "afstand": "47,78"
+  },
+  {
+    "plaats": "2",
+    "naam": "Erwin Suvaal",
+    "categorie": "M50",
+    "vereniging": "Rotterdam Atletiek",
+    "geboortedatum": "10-11-1963",
+    "afstand": "47,54"
+  },
+  {
+    "plaats": "3",
+    "naam": "Onno Heerlien",
+    "categorie": "M50",
+    "vereniging": "Groningen Atletiek",
+    "geboortedatum": "18-02-1964",
+    "afstand": "45,22"
+  },
+  {
+    "plaats": "4",
+    "naam": "Carel van der Werf",
+    "categorie": "M50",
+    "vereniging": "Phoenix",
+    "geboortedatum": "26-11-1963",
+    "afstand": "37,96"
+  },
+  {
+    "plaats": "5",
+    "naam": "Joost Prins",
+    "categorie": "M50",
+    "vereniging": "GAC",
+    "geboortedatum": "20-02-1964",
+    "afstand": "30,70"
+  },
+  {
+    "plaats": "1",
+    "naam": "Jack van der Zijde",
+    "categorie": "M55",
+    "vereniging": "Ilion",
+    "geboortedatum": "06-04-1957",
+    "afstand": "40,55"
+  },
+  {
+    "plaats": "2",
+    "naam": "Albert van der Mee",
+    "categorie": "M55",
+    "vereniging": "Sprint",
+    "geboortedatum": "29-01-1960",
+    "afstand": "35,39"
+  },
+  {
+    "plaats": "3",
+    "naam": "Sjaak van den Bedem",
+    "categorie": "M55",
+    "vereniging": "Altis",
+    "geboortedatum": "25-01-1960",
+    "afstand": "29,59"
+  },
+  {
+    "plaats": "4",
+    "naam": "Cees van Blerck",
+    "categorie": "M55",
+    "vereniging": "Scorpio",
+    "geboortedatum": "28-03-1959",
+    "afstand": "29,36"
+  },
+  {
+    "plaats": "1",
+    "naam": "Peter van Noort",
+    "categorie": "M60",
+    "vereniging": "De Spartaan",
+    "geboortedatum": "23-01-1955",
+    "afstand": "52,99"
+  },
+  {
+    "plaats": "2",
+    "naam": "Henk van Bakel",
+    "categorie": "M60",
+    "vereniging": "Swift",
+    "geboortedatum": "14-02-1953",
+    "afstand": "34,61"
+  },
+  {
+    "plaats": "3",
+    "naam": "Dirk Jan Giskes",
+    "categorie": "M60",
+    "vereniging": "NOVA",
+    "geboortedatum": "21-06-1954",
+    "afstand": "32,72"
+  }
+]
