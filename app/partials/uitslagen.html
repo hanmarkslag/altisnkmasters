@@ -92,16 +92,31 @@
             </div>
         </div>
 
-        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Kogel';">
+        <div class="row visible-xs" ng-show="nkSelectOnderdeel.onderdeel === 'NK Werpvijfkamp';">
             <div class="col-sm-10 col-md-8 col-lg-7">
                 <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
-                    <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Afstand</th></tr>
-                    <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie | orderBy:'-uitslagkogel'">
+                    <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Stand</th></tr>
+                    <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie">
                         <td>{{$index+1}}</td>
                         <td>{{uitslag.naam}}</td>
                         <td class="hidden-xs">{{uitslag.geboortedatum}}</td>
                         <td>{{uitslag.vereniging}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.uitslagkogel}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.puntentotaal}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Kogelslingeren';">
+            <div class="col-sm-10 col-md-8 col-lg-7">
+                <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
+                    <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Afstand</th></tr>
+                    <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie | orderBy:'-uitslagkogelslingeren'">
+                        <td>{{$index+1}}</td>
+                        <td>{{uitslag.naam}}</td>
+                        <td class="hidden-xs">{{uitslag.geboortedatum}}</td>
+                        <td>{{uitslag.vereniging}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.uitslagkogelslingeren}}</td>
                     </tr>
                 </table>
             </div>
