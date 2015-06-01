@@ -64,10 +64,10 @@
 
                     <tr><th>#</th><th>Naam</th><th>Geb. datum</th><th>Vereniging</th>
                         <th class="nk-uitslag-getal">Totaal</th>
-                        <th class="nk-uitslag-getal">Kgl</th><th class="nk-uitslag-pnt">pnt</th>
-                        <th class="nk-uitslag-getal">Spr</th><th class="nk-uitslag-pnt">pnt</th>
-                        <th class="nk-uitslag-getal">Dis</th><th class="nk-uitslag-pnt">pnt</th>
                         <th class="nk-uitslag-getal">Ksl</th><th class="nk-uitslag-pnt">pnt</th>
+                        <th class="nk-uitslag-getal">Kgl</th><th class="nk-uitslag-pnt">pnt</th>
+                        <th class="nk-uitslag-getal">Dis</th><th class="nk-uitslag-pnt">pnt</th>
+                        <th class="nk-uitslag-getal">Spr</th><th class="nk-uitslag-pnt">pnt</th>
                         <th class="nk-uitslag-getal">Gwr</th><th class="nk-uitslag-pnt">pnt</th></tr>
 
                     <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie">
@@ -76,14 +76,14 @@
                         <td>{{uitslag.geboortedatum}}</td>
                         <td>{{uitslag.vereniging}}</td>
                         <td class="nk-uitslag-getal">{{uitslag.puntentotaal}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.uitslagkogel}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.puntenkogel}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.uitslagspeer}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.puntenspeer}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.uitslagdiscus}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.puntendiscus}}</td>
                         <td class="nk-uitslag-getal">{{uitslag.uitslagkogelslingeren}}</td>
                         <td class="nk-uitslag-getal">{{uitslag.puntenkogelslingeren}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.uitslagkogel}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.puntenkogel}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.uitslagdiscus}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.puntendiscus}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.uitslagspeer}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.puntenspeer}}</td>
                         <td class="nk-uitslag-getal">{{uitslag.uitslaggewichtwerpen}}</td>
                         <td class="nk-uitslag-getal">{{uitslag.puntengewichtwerpen}}</td>
                     </tr>
@@ -107,6 +107,21 @@
             </div>
         </div>
 
+        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Kogelslingeren';">
+            <div class="col-sm-10 col-md-8 col-lg-7">
+                <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
+                    <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Afstand</th></tr>
+                    <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie | orderBy:'-uitslagkogelslingeren'">
+                        <td>{{$index+1}}</td>
+                        <td>{{uitslag.naam}}</td>
+                        <td class="hidden-xs">{{uitslag.geboortedatum}}</td>
+                        <td>{{uitslag.vereniging}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.uitslagkogelslingeren}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
         <div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Kogel';">
             <div class="col-sm-10 col-md-8 col-lg-7">
                 <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
@@ -117,21 +132,6 @@
                         <td class="hidden-xs">{{uitslag.geboortedatum}}</td>
                         <td>{{uitslag.vereniging}}</td>
                         <td class="nk-uitslag-getal">{{uitslag.uitslagkogel}}</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Speer';">
-            <div class="col-sm-10 col-md-8 col-lg-7">
-                <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
-                    <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Afstand</th></tr>
-                    <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie | orderBy:'-uitslagspeer'">
-                        <td>{{$index+1}}</td>
-                        <td>{{uitslag.naam}}</td>
-                        <td class="hidden-xs">{{uitslag.geboortedatum}}</td>
-                        <td>{{uitslag.vereniging}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.uitslagspeer}}</td>
                     </tr>
                 </table>
             </div>
@@ -152,16 +152,16 @@
             </div>
         </div>
 
-        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Kogelslingeren';">
+        <div class="row" ng-show="nkSelectOnderdeel.onderdeel === '5K Speer';">
             <div class="col-sm-10 col-md-8 col-lg-7">
                 <table class="table table-bordered table-striped nk-table-align nk-table-align nk-uitslag-text">
                     <tr><th>#</th><th>Naam</th><th class="hidden-xs">Geb. datum</th><th>Vereniging</th><th class="nk-uitslag-getal">Afstand</th></tr>
-                    <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie | orderBy:'-uitslagkogelslingeren'">
+                    <tr ng-repeat="uitslag in uitslagenWerpvijfkamp | filter:nkSelectCategorie | orderBy:'-uitslagspeer'">
                         <td>{{$index+1}}</td>
                         <td>{{uitslag.naam}}</td>
                         <td class="hidden-xs">{{uitslag.geboortedatum}}</td>
                         <td>{{uitslag.vereniging}}</td>
-                        <td class="nk-uitslag-getal">{{uitslag.uitslagkogelslingeren}}</td>
+                        <td class="nk-uitslag-getal">{{uitslag.uitslagspeer}}</td>
                     </tr>
                 </table>
             </div>
