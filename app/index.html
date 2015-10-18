@@ -1,43 +1,44 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My AngularJS App</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="app.css">
-  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+<html xmlns="http://www.w3.org/1999/html" ng-app="altisNKMasters">
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Website voor het KNAU NK Masters Werpen 2015 bestaande uit het NK kogelslingeren,
+        NK gewichtwerpen en NK werpvijfkamp voor masters. Het NK Masters Werpen wordt op zaterdag 30 en zondag 31 mei 2015
+        door de Amersfoorte atletiekvereniging Altis georganiseerd."/>
+
+    <title>Altis NK Masters Werpvijfkamp 2015</title>
+
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/altisnkmasters.css" rel="stylesheet">
+
+    <script src="lib/js/angular.min.js"></script>
+    <script src="lib/js/angular-ui-router.min.js"></script>
+    <script src="lib/js/ui-bootstrap-custom.min.js"></script>
+
+    <!--<script src="js/nk.js"></script>-->
+    <script src="js/nk.min.js"></script>
+
+    <!--<script src="js/altisNKMasters.js"></script>-->
+    <!--<script src="js/controllers/nkController.js"></script>-->
+    <!--<script src="js/controllers/nkNavigationController.js"></script>-->
+    <!--<script src="js/controllers/nkDeelnemerController.js"></script>-->
+    <!--<script src="js/controllers/nkUitslagenController.js"></script>-->
+    <!--<script src="js/services/nkDeelnemerService.js"></script>-->
+    <!--<script src="js/services/nkUitslagenService.js"></script>-->
+    <!--<script src="js/services/nkLoadUitslagenService.js"></script>-->
+    <!--<script src="js/filters/nkDeelnemersFilters.js"></script>-->
 </head>
-<body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
 
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+<body ng-controller="altisNKMastersCTRL">
 
-  <div ng-view></div>
+    <div ng-include="'partials/header.html'"></div>
 
-  <div>Angular seed app: v<span app-version></span></div>
+    <div ui-view></div>
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="app.js"></script>
-  <script src="view1/view1.js"></script>
-  <script src="view2/view2.js"></script>
-  <script src="components/version/version.js"></script>
-  <script src="components/version/version-directive.js"></script>
-  <script src="components/version/interpolate-filter.js"></script>
+    <div ng-include="'partials/footer.html'"></div>
+
 </body>
 </html>

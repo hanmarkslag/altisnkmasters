@@ -1,0 +1,332 @@
+/* logo's */
+.nk-logo-knau, .nk-logo-altis {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 0px;
+}
+.nk-logo-knau {
+     width: 60px;
+     float: right;
+ }
+.nk-logo-altis {
+    width: 130px;
+}
+.nk-logo-knau-text {
+    padding-left: 0px;
+}
+.nk-logo-altis-text {
+    padding-right: 0px;
+}
+.nk-logo-knau-text-1, .nk-logo-knau-text-2, .nk-logo-altis-text-1, .nk-logo-altis-text-2 {
+    font-weight: 300;
+}
+.nk-logo-knau-text-1 {
+    padding-top: 7px;
+}
+.nk-logo-knau-text-1, .nk-logo-knau-text-2 {
+    color: #F0810F;
+}
+.nk-logo-altis-text-1 {
+    padding-top: 7px;
+ }
+.nk-logo-altis-text-1, .nk-logo-altis-text-2 {
+    color: #003473;
+    text-align: right;
+}
+
+/* Header */
+.nk-header {
+    background-color: #F0810F;
+}
+.nk-header-foto {
+    width: 65%;
+}
+.nk-header-5kamp-logo-xs {
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 1px lightcyan;
+}
+.nk-header-5kamp-foto-xs {
+    width: 100%;
+ }
+.nk-header-text-xs {
+    background-color: #F0810F;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-top: solid 1px lightcyan;
+    padding-top: 8px;
+    padding-bottom: 8px;
+ }
+.nk-header-text {
+    color: #ffffff;
+    float: right;
+    padding-top: 30px;
+    width: 35%
+}
+.nk-header-text-1, .nk-header-text-2, .nk-header-text-3 {
+    margin-left: 15px;
+    padding-right: 1%;
+}
+.nk-header-text-2 {
+    font-weight: bold;
+}
+.nk-header-5kamp-logo {
+    margin-top: 20px;
+    width: 100%;
+    height: 90px;
+    border-top: solid 1px lightcyan;
+    border-bottom: solid 1px lightcyan;
+}
+
+/* Default text */
+
+.nk-text {
+    font-size: 16px;
+}
+.nk-h1-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+.nk-h2-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+.nk-underline-text {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.nk-text-link {
+    color: #F0810F;
+}
+.nk-email {
+    color: dimgray;
+    font-style: italic;
+}
+
+/* Table deelnemers */
+.nk-table-align {
+    padding-right: 15px;
+}
+.nk-table-align th {
+    padding-right: 15px;
+}
+.nk-table-expand {
+    padding-bottom: 10px;
+}
+.nk-table-expand a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+ }
+.nk-table-header {
+    font-size: 14px;
+}
+.nk-table-header a {
+    color: #000000;
+    text-decoration: none;
+}
+.nk-deelnemer td {
+    padding: 3px 15px 2px 0px;
+    font-size: 14px;
+}
+.nk-text-onderdeel td {
+    padding-left: 15px;
+    font-size: 14px;
+    font-style: italic;
+    color: grey;
+}
+.nk-search-deelnemer-input {
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+/* homepage and news */
+.nk-line {
+    border-top: 1px solid #F0810F;
+    margin-bottom: 20px;
+}
+.nk-line-footer {
+     border-top: 1px solid #F0810F;
+     margin-bottom: 10px;
+}
+
+.nk-news-header {
+    font-weight: bold;
+    font-size: 16px;
+}
+.nk-news-date {
+    color: gray;
+    padding-bottom: 6px;
+}
+.nk-news-photo {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.nk-news-text {
+    font-size: 16px;
+}
+
+/* pdf logo */
+.nk-pdf-logo {
+    height: 24px;
+    padding-left: 10px;
+}
+
+/* uitslagen */
+.nk-uitslag-getal {
+    text-align: right;
+}
+.nk-uitslag-pnt {
+    text-align: right;
+    font-weight: normal;
+}
+
+/* Default: mobile devices < 768px */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .nk-header-text {
+        padding-top: 18px;
+    }
+    .nk-header-text-1 {
+        font-size: 14px;
+    }
+    .nk-header-text-2 {
+        font-size: 20px;
+    }
+    .nk-header-text-3 {
+        font-size: 16px;
+        padding-top: 14px;
+    }
+    .nk-header-5kamp-logo {
+        margin-top: 15px;
+        height: 60px;
+    }
+    .nk-news-photo {
+        width: 30%;
+        padding: 5px 20px 10px 14px;
+        float: left;
+    }
+    .nk-news-text {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .nk-news-text ul {
+        padding-left: 500px;
+    }
+    .nk-news-horizontal-line {
+        margin-left: 15px;
+    }
+    .nk-text-kantlijn {
+        padding-left: 15px;
+    }
+    .nk-table-align {
+        margin-left: 15px;
+    }
+    .nk-search-deelnemer {
+        padding-left: 15px;
+    }
+    .nk-uitslag-text {
+        font-size: 12px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nk-header-text {
+        padding-top: 20px;
+    }
+    .nk-header-text-1 {
+        font-size: 16px;
+    }
+    .nk-header-text-2 {
+        font-size: 24px;
+    }
+    .nk-header-text-3 {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .nk-header-5kamp-logo {
+        margin-top: 20px;
+        height: 80px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .nk-header-text {
+        padding-top: 25px;
+    }
+    .nk-header-text-1 {
+        font-size: 18px;
+    }
+    .nk-header-text-2 {
+        font-size: 28px;
+    }
+    .nk-header-text-3 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .nk-header-5kamp-logo {
+        margin-top: 40px;
+    }
+}
+
+
+/* navbar */
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+/* brand */
+.navbar-default .navbar-brand {
+    color: #F0810F;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+/* links */
+.navbar-default .navbar-nav > li > a {
+    color: #F0810F;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #003473;
+}
+
+/* active link */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #003473;
+    background-color: white;
+}
+
+/* toggle */
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #F0810F;
+}
+
+/* glyphicon */
+.nav .glyphicon {
+    color: #F0810F;
+}
+.navbar-default .glyphicon:hover,
+.navbar-default .glyphicon:focus {
+    color: #003473;
+}
+.nk-search-deelnemer .glyphicon {
+    color: darkgray;
+}
+
+

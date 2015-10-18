@@ -1,0 +1,73 @@
+<!-- Top logo's -->
+<div class="container visible-sm visible-md visible-lg">
+    <div class="row">
+        <div class="col-sm-1 col-md-1 col-lg-1">
+            <a href="http://www.atletiek.nl" target="_blank"><img class="nk-logo-knau" src="images/knaulogo.jpg"></a>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3 nk-logo-knau-text">
+            <div class="nk-logo-knau-text-1">Onder auspiciën</div>
+            <div class="nk-logo-knau-text-2">van de Atletiekunie</div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2 nk-logo-altis-text">
+            <div class="nk-logo-altis-text-1">Powered by</div>
+            <div class="nk-logo-altis-text-2">Altis Amersfoort</div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+            <a href="http://www.altis.nl" target="_blank"><img class="nk-logo-altis" src="images/altislogo.jpg"></a>
+        </div>
+    </div>
+</div>
+
+<!-- Header photo and text -->
+<div class="visible-xs">
+    <img class="nk-header-5kamp-logo-xs" src="images/knau-logo-nk-masters.jpg">
+    <img class="nk-header-5kamp-foto-xs" src="images/altis-baan.jpg">
+    <div class="nk-header-text-xs">11 en 12 juni 2016 - NK Masters</div>
+</div>
+<div class="visible-sm visible-md visible-lg nk-header">
+    <img class="nk-header-foto" src="images/altis-baan.jpg">
+    <div class="nk-header-text">
+        <div class="nk-header-text-1">Atletiekvereniging Altis organiseert</div>
+        <div class="nk-header-text-2">NK Masters 2016</div>
+        <div class="nk-header-text-3">Amersfoort, 10 en 12 juni 2016</div>
+        <img class="nk-header-5kamp-logo" src="images/knau-logo-nk-masters.jpg">
+    </div>
+</div>
+
+<!-- Top navigation -->
+<nav ng-controller="nkNavigationCTRL" class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px" role="navigation">
+
+    <div class="container">
+        <div class="navbar-header">
+
+            <button ng-click="toggleNkMenu()" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#nkNavigation">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- <a href="../" class="navbar-brand">NK Masters</a> -->
+
+        </div>
+
+        <div collapse="nkNavIsCollapsed" class="navbar-collapse" id="nkNavigation" role="navigation">
+
+            <ul class="nav navbar-nav">
+                <li><a ng-click="toggleNkMenu();" ui-sref="home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a ng-click="toggleNkMenu();" ui-sref="programma">Programma</a></li>
+                <li><a ng-click="toggleNkMenu();" ui-sref="inschrijven">Inschrijven</a></li>
+                <li><a ng-click="toggleNkMenu();" ui-sref="deelnemers">Deelnemers</a></li>
+                <li><a ng-click="toggleNkMenu();" ui-sref="route">Route</a></li>
+                <li><a ng-click="toggleNkMenu();" ui-sref="contact">Contact</a></li>
+                <li><a ng-click="toggleNkMenu();" ui-sref="sponsors">Sponsors</a></li>
+                <li><a ng-click="toggleNkMenu();" ui-sref="uitslagen">Uitslagen NK Werpen 2015</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="nk-line"></div>
