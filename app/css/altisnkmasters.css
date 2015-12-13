@@ -222,7 +222,7 @@
         margin-left: 15px;
     }
     .nk-text-kantlijn {
-        padding-left: 15px;
+        padding-left: 5px;
     }
     .nk-table-align {
         margin-left: 15px;
@@ -232,6 +232,9 @@
     }
     .nk-uitslag-text {
         font-size: 12px;
+    }
+    .nk-table-limieten {
+        margin-left: -11px;
     }
 }
 
