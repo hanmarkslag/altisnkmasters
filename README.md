@@ -1,1 +1,1 @@
-# repo for NK Masters
+# Repo for KNAU NK Masters 2016
