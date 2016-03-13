@@ -185,6 +185,10 @@
     font-weight: normal;
 }
 
+.nk-hotel-photo {
+    width: 100%;
+}
+
 /* Default: mobile devices < 768px */
 
 /* Small devices (tablets, 768px and up) */
@@ -236,6 +240,10 @@
     .nk-table-limieten {
         margin-left: -2px;
     }
+    .nk-hotel-photo {
+        width: 90%;
+    }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -257,6 +265,9 @@
         margin-top: 20px;
         height: 80px;
     }
+    .nk-hotel-photo {
+        width: 70%;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -276,6 +287,9 @@
     }
     .nk-header-5kamp-logo {
         margin-top: 40px;
+    }
+    .nk-hotel-photo {
+        width: 60%;
     }
 }
 
