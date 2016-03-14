@@ -47,6 +47,10 @@ angular.module('altisNKMasters', ['ui.router', 'ui.bootstrap'])
                 .state('sponsors', {
                     url: "/sponsors",
                     templateUrl: "partials/sponsors.html"
+                })
+                .state('doemee', {
+                    url: "/doemee",
+                    templateUrl: "../partials/doemee.html"
                 });
 
         }]);
