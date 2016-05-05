@@ -1,0 +1,64 @@
+<div ng-controller="nkDeelnemersCTRL" xmlns="http://www.w3.org/1999/html">
+
+    <div class="container">
+
+        <div class="row nk-text-kantlijn">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="nk-h2-text">Inschrijvingen</p>
+                <div class="nk-text">Het onderstaande overzicht bevat de inschrijvingen, bijgewerkt tot 5 mei 2016.
+                    Na screening door de Atletiekunie zal de deelnemerlijst definitief vastgesteld
+                    worden. Eventuele onjuistheden kunt u per email doorgeven aan de webbeheerder
+                    (webbeheer@altisnkmasters.nl).</div>
+            </div>
+        </div>
+
+        <hr class="nk-news-horizontal-line">
+
+        <div class="nk-text-kantlijn nk-table-expand visible-xs">
+            <a ng-hide="showDetails" ng-click="toggleDetails()" style="color: #F0810F;">Toon onderdelen deelnemers</a>
+            <a ng-show="showDetails" ng-click="toggleDetails()" style="color: #F0810F;">Verberg onderdelen deelnemers</a>
+        </div>
+
+        <div class="nk-search-deelnemer">
+            <input type="text" class="nk-search-deelnemer-input" placeholder="Zoek deelnemer..." ng-model="searchText">
+            <span class="glyphicon glyphicon-search" style="padding-top: 5px; margin-left: -25px;"></span>
+        </div>
+
+        <table class="nk-text nk-table-align">
+            <tr class="nk-table-header">
+                <th><a href="" ng-click="sortOrder='naam';
+                    reverse=reverseNaam; reverseNaam=!reverseNaam; reverseVereniging=false; reverseCategorie=false;">
+                    Naam<img style="padding-left: 5px; padding-bottom: 2px; height: 14px;" src="images/sort-icon.png"></a></th>
+                <th><a href="" ng-click="sortOrder='vereniging';
+                    reverse=reverseVereniging; reverseVereniging=!reverseVereniging; reverseNaam=false; reverseCategorie=false;">
+                    Vereniging<img style="padding-left: 5px; padding-bottom: 2px; height: 14px;" src="images/sort-icon.png"></a></th>
+                <th><a style="white-space: nowrap;" href="" ng-click="sortOrder='categorie';
+                    reverse = reverseCategorie; reverseCategorie=!reverseCategorie; reverseNaam=false; reverseVereniging=false;">
+                    Cat<img style="padding-left: 5px; padding-bottom: 2px; height: 14px;" src="images/sort-icon.png"></a></th>
+                <th class="hidden-xs">Onderdelen</th>
+            </tr>
+
+            <!--<tbody ng-repeat="deelnemer in deelnemers | orderBy:sortOrder:reverse">-->
+            <tbody ng-repeat="deelnemer in deelnemers | searchDeelnemer:searchText | orderBy:sortOrder:reverse">
+            <tr class="nk-deelnemer">
+                <td>{{deelnemer.naam}}</td>
+                <td>{{deelnemer.vereniging}}</td>
+                <td>{{deelnemer.categorie}}</td>
+                <td class="hidden-xs"><span ng-repeat="onderdeel in deelnemer.onderdelen">{{onderdeel.onderdeel}}</span></td>
+            </tr>
+            <tr class="nk-text-onderdeel" ng-show="showDetails">
+                <td><span ng-repeat="onderdeel in deelnemer.onderdelen">{{onderdeel.onderdeel}}</span></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="row nk-text-kantlijn">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <br>
+                <p class="nk-text" style="font-style: italic; font-size: 14px;">
+                    -- Bijgewerkt tot 5 mei 2016 --<br>-- Aantal inschrijvingen {{deelnemers.length}} --</p>
+            </div>
+        </div>
+
+    </div>
+</div>

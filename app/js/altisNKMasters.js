@@ -32,6 +32,10 @@ angular.module('altisNKMasters', ['ui.router', 'ui.bootstrap'])
                     url: "/deelnemers",
                     templateUrl: "partials/deelnemers.html"
                 })
+                .state('deelnemerslijst', {
+                    url: "/deelnemerslijst",
+                    templateUrl: "../partials/deelnemerslijst.html"
+                })
                 .state('uitslagen', {
                     url: "/uitslagen",
                     templateUrl: "partials/uitslagen.html"

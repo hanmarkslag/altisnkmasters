@@ -1,0 +1,1255 @@
+[
+  {
+    "naam": "Henk van Bakel",
+    "vereniging": "Swift",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "34,77m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,42m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3379pt"
+      }
+    ]
+  },
+  {
+    "naam": "Cees van Blerck",
+    "vereniging": "Scorpio",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,98m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,39m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2850pt"
+      }
+    ]
+  },
+  {
+    "naam": "Corné Bolders",
+    "vereniging": "Diomedon",
+    "categorie": "M35",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2063pt"
+      }
+    ]
+  },
+  {
+    "naam": "Richard Bot",
+    "vereniging": "SAV",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "45,91m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "12,02m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2936pt"
+      }
+    ]
+  },
+  {
+    "naam": "Yvette Bot",
+    "vereniging": "SAV",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "42,33m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,16m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2764pt"
+      }
+    ]
+  },
+  {
+    "naam": "Mirjam van den Bremen",
+    "vereniging": "Clytoneus",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "33,77m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,14m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3000pt"
+      }
+    ]
+  },
+  {
+    "naam": "Marco Bronswijk",
+    "vereniging": "Olympus '70",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "44,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "13,12m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3333pt"
+      }
+    ]
+  },
+  {
+    "naam": "Pascal Geursen",
+    "vereniging": "Suomi",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "28,66m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "9,59m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2540pt"
+      }
+    ]
+  },
+  {
+    "naam": "Harald Gijtenbeek",
+    "vereniging": "Altis",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "38,81m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "12,02m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2701pt"
+      }
+    ]
+  },
+  {
+    "naam": "Leonie van Ginneken",
+    "vereniging": "Diomedon",
+    "categorie": "V55",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3024pt"
+      }
+    ]
+  },
+  {
+    "naam": "Dirk Jan Giskes",
+    "vereniging": "NOVA",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "36,67m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "15,61m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2837pt"
+      }
+    ]
+  },
+  {
+    "naam": "Onno Heerlien",
+    "vereniging": "Groningen Atletiek",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "47,97m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "16,34m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3438pt"
+      }
+    ]
+  },
+  {
+    "naam": "Tiny Hellendoorn",
+    "vereniging": "Isala '96",
+    "categorie": "V60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "37,79m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "13,28m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "4119pt"
+      }
+    ]
+  },
+  {
+    "naam": "Frans Klep",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "32,84m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,87m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3125pt"
+      }
+    ]
+  },
+  {
+    "naam": "Anja Korff-Lanters",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "V60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "25,33m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "10,41m"
+      }
+    ]
+  },
+  {
+    "naam": "Frans de Laat",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "36,29m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "13,65m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3799pt"
+      }
+    ]
+  },
+  {
+    "naam": "Michel Leinders",
+    "vereniging": "Unitas",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "51,82m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "17,98m"
+      }
+    ]
+  },
+  {
+    "naam": "Brian Lesterhuis",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Loes Luijendijk",
+    "vereniging": "PAC",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2037pt"
+      }
+    ]
+  },
+  {
+    "naam": "Albert van der Mee",
+    "vereniging": "Sprint",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "41,03m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "15,68m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3805pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martijn van de Peppel",
+    "vereniging": "VAV",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "28,48m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,80m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2097pt"
+      }
+    ]
+  },
+  {
+    "naam": "Joost Prins",
+    "vereniging": "GAC",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "33,62m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "12,50m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2411pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martin Albert Regtop",
+    "vereniging": "TION",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "39,92m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "16,06m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3853pt"
+      }
+    ]
+  },
+  {
+    "naam": "Niels Schager",
+    "vereniging": "AV '23",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "25,76m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "6,57m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2029pt"
+      }
+    ]
+  },
+  {
+    "naam": "Jan Smit",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "M80",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "21,72m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,59m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2369pt"
+      }
+    ]
+  },
+  {
+    "naam": "Jan van Hooft",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+       {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3261pt"
+      }
+    ]
+  },
+  {
+    "naam": "Jeroen Vis",
+    "vereniging": "PAC",
+    "categorie": "M35",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "39.67m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "10,94m"
+      }
+    ]
+  },
+  {
+    "naam": "Linda van Vliet",
+    "vereniging": "PAC",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "30,99m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,82m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2107pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martin Wijand",
+    "vereniging": "AAC",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "52,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,97m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3205pt"
+      }
+    ]
+  },
+  {
+    "naam": "Joyce de Wit",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "1024pt"
+      }
+    ]
+  },
+  {
+    "naam": "Gert Velthuizen",
+    "vereniging": "Spark",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2015pt"
+      }
+    ]
+  },
+  {
+    "naam": "Gonny Mik",
+    "vereniging": "Groningen Atletiek",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "50,37m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "17,19m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "José van Appeven",
+    "vereniging": "AAV '36",
+    "categorie": "V55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "19,99m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "6,75m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2261pt"
+      }
+    ]
+  },
+  {
+    "naam": "Margreeth Hissink",
+    "vereniging": "PAC",
+    "categorie": "V65",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Marianne Groenendijk",
+    "vereniging": "AV Gouda",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Rens Haanstra",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "19,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,08m"
+      }
+    ]
+  },
+  {
+    "naam": "Simone Veth",
+    "vereniging": "Passaat",
+    "categorie": "V35",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2773pt"
+      }
+    ]
+  },
+  {
+    "naam": "Ingrid Vos",
+    "vereniging": "België (*)",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "38,37m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,97m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3366pt"
+      }
+    ]
+  },
+  {
+    "naam": "Mireille Tonizzo-Kosmala",
+    "vereniging": "Luxemburg (*)",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "40,33m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,09m"
+      }
+    ]
+  },
+  {
+    "naam": "Stephane Tonizzo",
+    "vereniging": "Luxemburg (*)",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "48,50m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,11m"
+      }
+    ]
+  },
+  {
+    "naam": "Carel van der Werf",
+    "vereniging": "Phoenix",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "42,28m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,40m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3022pt"
+      }
+    ]
+  },
+  {
+    "naam": "Erwin Suvaal",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "51,60m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "17,94m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3340pt"
+      }
+    ]
+  },
+  {
+    "naam": "Rob Zwijnenburg",
+    "vereniging": "Avantri",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "36,45m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "10,96m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2911pt"
+      }
+    ]
+  },
+  {
+    "naam": "Sjaak van den Bedem",
+    "vereniging": "Altis",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Jan Titulaer",
+    "vereniging": "Swift",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "35,99m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "15,08m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3514pt"
+      }
+    ]
+  },
+  {
+    "naam": "Ruud van de Ven",
+    "vereniging": "Eindhoven Atletiek",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,00m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,13m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2548pt"
+      }
+    ]
+  },
+  {
+    "naam": "Frits Martens",
+    "vereniging": "Hollandia",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "30,25m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,44m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Peter van Noort",
+    "vereniging": "De Spartaan",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "58,80m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "20,87m"
+      }
+    ]
+  },
+  {
+    "naam": "Jacqueline Thijssen",
+    "vereniging": "GVAC",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "18,46m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "5,76m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "1698pt"
+      }
+    ]
+  },
+  {
+    "naam": "Marlies van Woerden",
+    "vereniging": "Prins Hendrik",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "30,52m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,26m"
+      }
+    ]
+  },
+  {
+    "naam": "Annie van Anholt",
+    "vereniging": "Attila",
+    "categorie": "V65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "40,47m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "16,11m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "4702pt"
+      }
+    ]
+  },
+  {
+    "naam": "Roger van der Have",
+    "vereniging": "Altis",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Monica Kindervater",
+    "vereniging": "Hanzesport",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "-"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Frank Koopmans",
+    "vereniging": "PEC 1910",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Roland Boon",
+    "vereniging": "Flevo Delta",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Milco Braak",
+    "vereniging": "AAV '36",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3383pt"
+      }
+    ]
+  },
+  {
+    "naam": "Kees Versloot",
+    "vereniging": "De Liemers",
+    "categorie": "M50",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Jack van der Zijde",
+    "vereniging": "Ilion",
+    "categorie": "M55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "38,94m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,08m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3231pt"
+      }
+    ]
+  },
+  {
+    "naam": "Rene Peeters",
+    "vereniging": "Atledo",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "36,41m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,88m"
+      }
+    ]
+  },
+  {
+    "naam": "Peter Blommestijn",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3449pt"
+      }
+    ]
+  },
+  {
+    "naam": "Laura Blommestijn-Euser",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V70",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3934pt"
+      }
+    ]
+  },
+  {
+    "naam": "Peter Blakmoor",
+    "vereniging": "Fit",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,40m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "9,83m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2374pt"
+      }
+    ]
+  },
+  {
+    "naam": "Wendy Koolhaas",
+    "vereniging": "Groningen Atletiek",
+    "categorie": "V35",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "62,44m"
+      }
+    ]
+  },
+  {
+    "naam": "Iris Steverink",
+    "vereniging": "Phoenix",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2059pt"
+      }
+    ]
+  },
+  {
+    "naam": "Rina van de Stouwee",
+    "vereniging": "AAV '36",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2146pt"
+      }
+    ]
+  },
+  {
+    "naam": "Marcel Dost",
+    "vereniging": "TION",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Wim Threels",
+    "vereniging": "GAC",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3012pt"
+      }
+    ]
+  },
+  {
+    "naam": "Geert Oerlemans",
+    "vereniging": "Diomedon",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "28,83m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "12,00m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3061pt"
+      }
+    ]
+  },
+  {
+    "naam": "Arno Hissink",
+    "vereniging": "PAC",
+    "categorie": "M60",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2363pt"
+      }
+    ]
+  },
+  {
+    "naam": "Dennis Enderman",
+    "vereniging": "Isala '96",
+    "categorie": "M35",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Leonie Berden",
+    "vereniging": "RK HAV",
+    "categorie": "V40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "33,62m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "11,00m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3304pt"
+      }
+    ]
+  },
+  {
+    "naam": "Ingrid van Dijk",
+    "vereniging": "GAC",
+    "categorie": "V50",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "43,14m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "14,30m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "3922pt"
+      }
+    ]
+  },
+  {
+    "naam": "Martijn Zijl",
+    "vereniging": "Trias",
+    "categorie": "M70",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "-"
+      }
+    ]
+  },
+  {
+    "naam": "Mies Kuipers",
+    "vereniging": "Sprint",
+    "categorie": "V55",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "16,39m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "5,24m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2247pt"
+      }
+    ]
+  },
+  {
+    "naam": "Corné Jacobs",
+    "vereniging": "Scopias",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2660pt"
+      }
+    ]
+  },
+  {
+    "naam": "Erwin Bökenkamp",
+    "vereniging": "AV Edam",
+    "categorie": "M45",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "37,56m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "10,43m"
+      },
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2821pt"
+      }
+    ]
+  },
+  {
+    "naam": "Jack Dekker",
+    "vereniging": "AV Castricum",
+    "categorie": "M65",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2821pt"
+      }
+    ]
+  },
+  {
+    "naam": "Michelle Blommestijn",
+    "vereniging": "Rotterdam Atletiek",
+    "categorie": "V45",
+    "onderdelen": [
+      {
+        "onderdeel": "Werpvijfkamp zo",
+        "prestatie": "2944pt"
+      }
+    ]
+  },
+  {
+    "naam": "Anna Carpendale",
+    "vereniging": "Atletiek Maastricht (*)",
+    "categorie": "V35",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "33,12m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "9,86m"
+      }
+    ]
+  },
+  {
+    "naam": "Arno Oprins",
+    "vereniging": "Atletiek Maastricht",
+    "categorie": "M40",
+    "onderdelen": [
+      {
+        "onderdeel": "Kogelslingeren za",
+        "prestatie": "29,56m"
+      },
+      {
+        "onderdeel": "Gewichtwerpen za",
+        "prestatie": "8,14m"
+      }
+    ]
+  }
+
+]
