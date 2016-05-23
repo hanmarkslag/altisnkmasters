@@ -18,6 +18,14 @@ angular.module("altisNKMasters").filter("searchDeelnemer", function() {
                 || (deelnemer.vereniging.toLowerCase().indexOf(searchText) != -1)
                 || (deelnemer.categorie.toLowerCase().indexOf(searchText) != -1)) {
                 result.push(deelnemer);
+            } else {
+                var hit = false;
+                angular.forEach(deelnemer.onderdelen, function(onderdeel) {
+                    if ((onderdeel.onderdeel.toLowerCase().indexOf(searchText) != -1) && !hit) {
+                        result.push(deelnemer);
+                        hit = true;
+                    }
+                })
             }
         });
 
